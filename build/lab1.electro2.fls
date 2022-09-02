@@ -1,7 +1,7 @@
 PWD c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo
 INPUT C:\Users\martina\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\informe_termo.tex
-OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.log
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\lab1.electro2.tex
+OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
@@ -512,10 +512,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
-OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.aux
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.aux
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.aux
+OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.aux
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
@@ -535,18 +535,18 @@ INPUT C:\Users\martina\AppData\Roaming\MiKTeX\tex\latex-dev\graphics\mathcolor.l
 INPUT C:\Users\martina\AppData\Roaming\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
 INPUT C:\Users\martina\AppData\Roaming\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
 INPUT C:\Users\martina\AppData\Roaming\MiKTeX\tex\latex-dev\graphics\mathcolor.ltx
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.pdf
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.pdf
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -579,26 +579,26 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.toc
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.toc
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\martina\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.aux
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
+INPUT c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\lab1.electro2.out
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
