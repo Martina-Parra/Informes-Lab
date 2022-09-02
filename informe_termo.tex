@@ -44,21 +44,18 @@ Esto es una prueba.
 %=========Procedimiento
 \section{Procedimiento}
 \begin{enumerate}
-    \item Para la primera simulación, se trabajará a una temperatura constante de 300K y un número de partículas pesadas n = 50. Iremos variando el ancho del recipiente, partiendo en 15nm, 13nm, 11nm,
-    9nm, 7nm y 5nm. Aquí debe registrar cada valor de presión obtenido de la simulación, para cada
+    \item Para la primera simulación, se trabajará a una temperatura constante de 300K y un número de partículas pesadas n = 50. Luego se  variará el ancho del recipiente (15nm, 13nm, 11nm,
+    9nm, 7nm y 5nm). Después se registrá cada valor de presión obtenido de la simulación, para cada
     uno de los anchos respectivos.
-    Una vez terminada la primera recolección de datos, debe repetir la simulación para partículas pesadas y ligeras, ocupando temperaturas constantes de 300K y 600K, y n = 50, n = 100, n = 150
-    para cada caso. Grafique la relación eligiendo los datos de volumen y presión adecuados para los 
-    ejes x (volumen) e y (presión) para que su función modele los datos lo más próximo posible al 
-    experimento.
+    Una vez terminada la primera recolección de datos, se repetirá la simulación para partículas pesadas y ligeras, ocupando temperaturas constantes de 300K y 600K, y n = 50, n = 100, n = 150
+    para cada caso. 
 
-    \item Para la segunda simulación, trabajaremos con un número de partículas pesadas n = 50, y una
+    \item Para la segunda simulación, se trabajará con un número de partículas pesadas n = 50, y una
     temperatura inicial de 300K. La presión en este caso estará oscilando entre 5,4atm y 6,3atm
-    aproximadamente, debemos hacerla constante en alguno de estos valores, el recipiente inicial mide 10nm. Luego, 
+    aproximadamente, debemos hacerla constante en alguno de estos valores, donde el recipiente inicial mide 10nm. Luego, 
     variamos la temperatura con el regulador y debemos fijarnos que ocurre en las siguientes temperaturas: 
-    150K, 225K, 375K y 450K. Registre los datos de las variaciones del ancho del recipiente en cada una de las temperaturas dadas.
-    Grafique la relación eligiendo los datos de temperatura y volumen adecuados para los ejes x (temperatura) e y (volumen) para que su función modele los datos lo más 
-    próximo posible al experimento.
+    150K, 225K, 375K y 450K, registrando los datos de las variaciones del ancho del recipiente.
+    
 
     \item Repetiremos la simulación anterior con un  n = 150, una temperatura inicial de 300K, el recipiente
     tendrá un ancho inicial de 10nm, la presión estará oscilando entre 17,1atm y 17,9atm, aproximadamente, la haremos constante
@@ -96,30 +93,31 @@ Esto es una prueba.
  \centering
  \begin{tabular}{|c|c|c|l|} \hline
   n (mol)&  T = 300K        &    T = 600K    &        \\ \hline
-   50    & [3.4 - 4.4] , 15 & [7.3 - 8.2] , 15& P atm, L nm\\ 
-         & [4.0 - 5.0] , 13 & [8.6 - 9.5] , 13& P atm, L nm\\
-         & [4.0 - 5.0] , 11 & [8.6 - 9.5] , 11& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  9 & [8.6 - 9.5] ,  9& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  7 & [8.6 - 9.5] ,  7& P atm, L nm\\  
-         & [4.0 - 5.0] ,  5 & [8.6 - 9.5] ,  5& P atm, L nm\\ \hline
-   100   & [3.4 - 4.4] , 15 & [7.3 - 8.2] , 15& P atm, L nm\\ 
-         & [4.0 - 5.0] , 13 & [8.6 - 9.5] , 13& P atm, L nm\\
-         & [4.0 - 5.0] , 11 & [8.6 - 9.5] , 11& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  9 & [8.6 - 9.5] ,  9& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  7 & [8.6 - 9.5] ,  7& P atm, L nm\\  
-         & [4.0 - 5.0] ,  5 & [8.6 - 9.5] ,  5& P atm, L nm\\ \hline
-    50   & [3.4 - 4.4] , 15 & [7.3 - 8.2] , 15& P atm, L nm\\ 
-         & [4.0 - 5.0] , 13 & [8.6 - 9.5] , 13& P atm, L nm\\
-         & [4.0 - 5.0] , 11 & [8.6 - 9.5] , 11& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  9 & [8.6 - 9.5] ,  9& P atm, L nm\\ 
-         & [4.0 - 5.0] ,  7 & [8.6 - 9.5] ,  7& P atm, L nm\\  
-         & [4.0 - 5.0] ,  5 & [8.6 - 9.5] ,  5& P atm, L nm\\ \hline
+   50    & [3.4 - 4.4], 15 & [7.3 - 8.2], 15& P atm, L nm\\ 
+         & [4.0 - 5.0], 13 & [8.6 - 9.5], 13& P atm, L nm\\
+         & [4.8 - 5.8], 11 & [10.2 - 11.1], 11& P atm, L nm\\ 
+         & [6.0 - 7.0],  9 & [12.5 - 13.4],  9& P atm, L nm\\ 
+         & [7.9 - 8.8],  7 & [16.2 - 17.1],  7& P atm, L nm\\  
+         & [11.2 - 12.1], 5 & [22.9 - 23.8],  5& P atm, L nm\\ \hline
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   100   & [7.3 - 8.2], 15 & [15.1 - 16.0], 15& P atm, L nm\\ 
+         & [8.5 - 9.4], 13 & [17.5 - 18.4], 13& P atm, L nm\\
+         & [10.2 - 11.1], 11 & [20.9 - 21.7], 11& P atm, L nm\\ 
+         & [12.5 - 13.4], 9 & [25.6 - 26.4],  9& P atm, L nm\\ 
+         & [16.3 - 17.2], 7 & [32.9 - 33.7],  7& P atm, L nm\\  
+         & [22.9 - 23.8] , 5 & [46.3 - 47.1],  5& P atm, L nm\\ \hline
+         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   150   & [11.2 - 12.1], 15 & [22.9 - 23.8], 15& P atm, L nm\\ 
+         & [13.1 - 14.0], 13 & [26.4 - 27.3], 13& P atm, L nm\\
+         & [15.5 - 16.3], 11 & [31.4 - 32.2], 11& P atm, L nm\\ 
+         & [19.1 - 19.9],  9 & [38.7 - 39.5],  9& P atm, L nm\\ 
+         & [24.7 - 25.5],  7 & [49.4 - 50.1],  7& P atm, L nm\\  
+         & [34.6 - 35.3],  5 & [69.8 - 70.4],  5& P atm, L nm\\ \hline
 
    
 
-
-
  \end{tabular}
+ \caption{\label{tab:Pesadas} Datos para particulas pesadas.}
  \end{table}
 
 
