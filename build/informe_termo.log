@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.30)  1 SEP 2022 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.8.30)  6 SEP 2022 11:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/martina/Documents/Git/compu2/Termo/Lab-Termo/informe_termo.tex
-(c:/Users/martina/Documents/Git/compu2/Termo/Lab-Termo/informe_termo.tex
+**c:/Users/martina/Documents/Git/Termo/Lab-Termo/informe_termo.tex
+(c:/Users/martina/Documents/Git/Termo/Lab-Termo/informe_termo.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-04> (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -268,7 +268,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count290
 \l__pdf_internal_box=\box54
-) (c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
+) (c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
@@ -302,7 +302,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (C:\Users\martina\AppData\Roaming\MiKTeX\tex/latex-dev/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 14.
- (c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out) (c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.out)
+ (c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.out) (c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.out)
 \@outlinefile=\write3
 \openout3 = `informe_termo.out'.
 
@@ -359,34 +359,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.toc
+[1
+
+{C:/Users/martina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@toc=\write4
 \openout4 = `informe_termo.toc'.
 
- [1
 
-{C:/Users/martina/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.aux
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.100 
+       [1]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2] [3] (c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.aux
 LaTeX Info: Redefining \. on input line 22.
 LaTeX Info: Redefining \% on input line 22.
 )
 Package rerunfilecheck Info: File `informe_termo.out' has not changed.
-(rerunfilecheck)             Checksum: AA92BEC1F525B32BF5B527866E193EFB;201.
+(rerunfilecheck)             Checksum: CFB7D8C988A4EFFFCF8CC1E0C19D6568;509.
  ) 
 Here is how much of TeX's memory you used:
- 11098 strings out of 478338
- 177248 string characters out of 2846509
- 514794 words of memory out of 3000000
- 29383 multiletter control sequences out of 15000+600000
- 474335 words of font info for 46 fonts, out of 8000000 for 9000
+ 11093 strings out of 478338
+ 177091 string characters out of 2846509
+ 525863 words of memory out of 3000000
+ 29379 multiletter control sequences out of 15000+600000
+ 472529 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,8n,77p,334b,451s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on c:\Users\martina\Documents\Git\compu2\Termo\Lab-Termo\build\informe_termo.pdf (2 pages, 74982 bytes).
+ 72i,8n,77p,327b,589s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on c:\Users\martina\Documents\Git\Termo\Lab-Termo\build\informe_termo.pdf (4 pages, 102993 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 17 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
