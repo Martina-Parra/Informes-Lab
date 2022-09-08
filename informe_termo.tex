@@ -47,81 +47,73 @@
 
 %========Introducción
 \section{Introdución}
-      En el presente documento contiene series de datos obtenidos en la simulacion de laboratorio.
-      Los pricncipales objetivos de este proyecto son:
-      \begin{itemize}  %Objetivos
-            \item Comprobar usando la simulación, las leyes de gases ideales.
-            \item Obtener modelos gráficos y matemáticos que relacionen las magnitudes termodinámicas presión,
-            volumen y temperatura.
-      \end{itemize}
+En este informe presentaremos series de datos obtenidos en la simulación de laboratorio, en la cual se realizo por medio de un simulador para medir distintas propiedades termodinámicas de gases ideales.
+En el cual primero definiremos que es un gas ideal y como se relacionan las propiedades termodinámicas p, V y T. Para luego definir los materiales que usaremos en nuestro laboratorio.
+Además, exhibiremos tablas de datos donde se hizo cariar tanto la longitud del recipiente como la temperatura, donde estas serán representadas en gráficos V-P y T-V de los cuales obtendremos información con la que podremos responder las preguntas propuestas y obtener conclusiones.
+Los objetivos del laboratorio son:
+ \begin{itemize}  %Objetivos
+      \item Comprobar usando la simulación, las leyes de gases ideales.
+      \item Obtener modelos gráficos y matemáticos que relacionen las magnitudes termodinámicas presión,
+      volumen y temperatura.
+\end{itemize}
 
 
 %=========Marco Teórico
 \section{Marco Teórico}
-
-
-
-
-%=========Materiales
-\section{Materiales}
+Gas ideal: Modelo idealizado que representa muy bien el comportamiento 
+de los gases en algunas circunstancias (Como a presiones bajas)
+Las caracteristicas de un gas ideal son:
 \begin{itemize}
-      \item Recipiente con gas.
-      \item Pistón
-      \item Terómetro.
-      \item Barómetro.
-      \item Regularizador de temperatura.
-      \item Bomba de moleculas.
+      \item Las particulas del gas no tienen volumen (Ocupan el volumen del envase que los contiene)
+      \item No se tienen en cuenta las interacciones de atracción y repulsión molecular.
 \end{itemize}
+Las propiedades termodinámicas de un gas ideal tienen las siguientes relaciones entre ellos.
+\begin{equation*}
+      PV=nRT
+\end{equation*}
+donde :
+P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T= Temperatura [K°]
+%=========Materiales
+
+\newpage
+\section{Materiales}
+\begin{figure}[h!]
+      \centering
+      \includegraphics[width= 12cm, height= 7cm]{imag/Materiales.png}
+\end{figure}
+
 
 %=========Procedimiento
 \section{Procedimiento}
 \begin{enumerate}
-    \item Para la primera simulación, se trabajará a una temperatura constante de 300K y un número de partículas pesadas n = 50. Luego se  variará el ancho del recipiente (15nm, 13nm, 11nm,
-    9nm, 7nm y 5nm). Después se registrá cada valor de presión obtenido de la simulación, para cada
+    \item Para la primera simulación, trabajamos a una temperatura constante de 300K y un número de partículas pesadas n = 50. Luego variamos el ancho del recipiente (15nm, 13nm, 11nm,
+    9nm, 7nm y 5nm). Después registramos cada valor de presión obtenido de la simulación, para cada
     uno de los anchos respectivos.
-    Una vez terminada la primera recolección de datos, se repetirá la simulación para partículas pesadas y ligeras, ocupando temperaturas constantes de 300K y 600K, y n = 50, n = 100, n = 150
+    Una vez terminada la primera recolección de datos, se repitió la simulación para partículas pesadas y ligeras, ocupando temperaturas constantes de 300K y 600K, y n = 50, n = 100, n = 150
     para cada caso. 
 
-    \item Para la segunda simulación, se trabajará con un número de partículas pesadas n = 50, y una
-    temperatura inicial de 300K. La presión en este caso estará oscilando entre 5,4atm y 6,3atm
-    aproximadamente, debemos hacerla constante en alguno de estos valores, donde el recipiente inicial mide 10nm. Luego, 
-    variamos la temperatura con el regulador y debemos fijarnos que ocurre en las siguientes temperaturas: 
-    150K, 225K, 375K y 450K, registrando los datos de las variaciones del ancho del recipiente.
+    \item Para la segunda simulación, se trabajó con un número de partículas pesadas n = 50, una
+    temperatura inicial de 300K, un recipiente de ancho 10nm  y presión constante entre 5,4atm y 6,3atm.
+    Luego se fue variando la temperatura en 150K, 225K, 375K y 450K, con el objetivo de registar las variaciones del ancho del recipiente.
     
 
-    \item Repetiremos la simulación anterior con un  n = 150, una temperatura inicial de 300K, el recipiente
-    tendrá un ancho inicial de 10nm, la presión estará oscilando entre 17,1atm y 17,9atm, aproximadamente, la haremos constante
-    en alguno de estos valores. Volvemos a variar la temperatura entre 150K, 225K, 375K y 450K. Registre los datos de las variaciones 
-    del ancho del recipiente en cada una de las temperaturas dadas.
-    Grafique la relación eligiendo los datos de temperatura y volumen adecuados para los ejes x (temperatura) e y (volumen) para que 
-    su función modele los datos lo más próximo posible al experimento.
-
-    \item  Por último, volvemos a realizar la simulación con un n = 250, una temperatura inicial de 300K, el
-    recipiente tendra un ancho inicial de 10nm, la presión estará oscilando entre 28,8atm y 29,6atm,
-    aproximadamente, la haremos constante en alguno de estos valores. Volvemos a variar la temperatura entre 
-    150K, 225K, 375K y 450K.
+    \item   Repetimos la simulación anterior, pero trabajando con un n = 150,  una temperatura inicial de 300K,  un recipiente de ancho 10nm y presión constante entre 17,1atm y 17,9atm. 
+    Luego se fue variando la temperatura en 150K, 225K, 375K y 450K, con el objetivo de registar las variaciones del ancho del recipiente. 
+    
+    \item  Por último, volvemos a realizar la simulación con un n = 250, una temperatura inicial de 300K, un
+    recipiente inicial de ancho 10nm y presión constante entre 28,8atm y 29,6atm.
+    Luego se fue variando la temperatura en 150K, 225K, 375K y 450K, con el objetivo de registar las variaciones del ancho del recipiente.
+   
     
     
 \end{enumerate}
 
-
-
-
-
-
-
-
-
-
 %========Resultados
 \section{Resultados}
 
- 
 
 
-
-
-\begin{table}
+\begin{table}[h]
  \centering
  \begin{tabular}{|c|c|c|l|} \hline
   n (mol)&  T = 300K        &    T = 600K    &        \\ \hline
@@ -148,18 +140,18 @@
 
    
 
- \end{tabular}
- \caption{\label{tab:Pesadas} Datos para partículas pesadas.}
- \end{table}
+\end{tabular}
+\caption{\label{tab:Pesadas} Datos para partículas pesadas.}
+\end{table}
 
-\begin{table}
+\begin{table}[h]
  \centering
- \begin{tabular}{|c|c|c|l|} \hline
+\begin{tabular}{|c|c|c|l|} \hline
   n (mol)&  T = 300K        &    T = 600K    &        \\ \hline
    50    & [3.7 - 4.9], 15 & [7.6 - 8.1], 15& P atm, L nm\\ 
          & [4.1 - 4.9], 13 & [8.6 - 9.4], 13& P atm, L nm\\
          & [4.9 - 5.8], 11 & [10.2 - 11.0], 11& P atm, L nm\\ 
-         & [6.2 - 6.9],  9 & [12.7 - 13.3,  9& P atm, L nm\\ 
+         & [6.2 - 6.9],  9 & [12.7 - 13.3],  9& P atm, L nm\\ 
          & [7.8 - 8.5],  7 & [16.6 - 17.0],  7& P atm, L nm\\  
          & [11.0 - 12.1], 5 & [23.0 - 23.7],  5& P atm, L nm\\ \hline
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -177,11 +169,11 @@
          & [24.9 - 25.6],  7 & [49.4 - 50.5],  7& P atm, L nm\\  
          & [34.7 - 35.3],  5 & [69.8 - 70.3],  5& P atm, L nm\\ \hline
 
-   
+\end{tabular}
+\caption{\label{tab:ligeras} Datos para partículas ligeras.}
+\end{table}
 
- \end{tabular}
- \caption{\label{tab:Pesadas} Datos para partículas ligeras.}
- \end{table}
+ 
 
 
 \begin{table}
@@ -209,6 +201,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -267,6 +260,18 @@
 %\section{Análisis}
 
 
+=======
+%========Analisis Nosé como poner las respuestas, para que queden separada de la pregunta.
+\section{Análisis}
+begin{enumerate}
+      \item 1)¿Qué predice que le sucederá a la presión dentro de un recipiente cuando la temperatura permanece constante pero el volumen cambia?
+             %Respuesta 1
+      \item 2)¿Qué generalizaciones puede hacer acerca de cómo los cambios de temperatura afectan la presióncuando el volumen en un recipiente permanece constante?
+            %Respuesta 2
+      \item 3)¿Qué representa el ́area bajo la curva en un diagrama (P-V)? ¿Cómo se calcula?
+            %Respuesta 3
+end{enumerate}
+>>>>>>> 96d0dc6eda9734470feacc207db84cafbbea7487
 %========Conclusión
 %\section{Conclusión}
 
