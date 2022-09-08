@@ -4,9 +4,13 @@
 \usepackage[colorlinks=true]{hyperref}
 \usepackage{enumitem} 
 \usepackage{graphicx}   
-\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry} 
+\usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm]{geometry} 
 \usepackage[]{subfigure}
 \usepackage[]{multicol}
+
+\newenvironment{Figura}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
 
 \graphicspath{ {./imag/Lab-Termo/Git/Documentos}} 
 \title{Jaula de Faraday} 
@@ -22,25 +26,28 @@
 \begin{document}
 \maketitle 
 
+\begin{multicols*}{2}[\setlength{columnsep}{3cm}]
 
-\begin{multicols*}{2}
     
 
-%=============Resumen.
-En este presente documento se expondra datos y concluciones 
+
+%=============Resumen============
+\begin{abstract}
+    En este presente documento se expondra datos y concluciones 
 obtenidas a traves de 3 diferentes experimentos.Relacionados con el campo electrico,
 conductores y las ondas electro magneticas.
+\end{abstract}
 
 
-
-%========Introducción
+%========Introducción=============
 \section*{Introdución}
     A medida que el saber del humano crece, tambien lo hace las preguntas.
     ¿Porque al frotar un globo sobre mi cabeza los pelos se levantan? o 
     ¿Por qué cae un rayo?
     Los antiguos griegos dieron incapie a el estudio de la ciencia que 
     lograria dar respuesta a las anteriores interrogantes, El electromagnetismo.
-%==============Marco teorico
+
+%==============Marco teorico============
 \section*{Marco teorico}
 \begin{enumerate}
     \item electromagnetismo: El electromagnetismo es la rama de la física que estudia las relaciones entre los fenómenos eléctricos y magnéticos, es decir, las interacciones entre las partículas cargadas y los campos eléctricos y magnéticos.
@@ -55,22 +62,15 @@ conductores y las ondas electro magneticas.
     % o establece que el flujo de ciertos campos a través de una superficie cerrada es proporcional a la magnitud de las fuentes de dicho campo que hay en el interior de la misma superficie  
 \end{enumerate}
 
-%========Objetivos
+%========Objetivos==================
 %\section{Objetivos}
-%\begin{itemize}
-   
-%\end{itemize}
-
-
-%=========Marco Teórico
-%\section{Marco Teórico}
 
 
 
-
-%=========Materiales
+%=========Materiales===============
 \section*{Materiales}
-\begin{multicols}{2}
+
+
 \begin{itemize}
     \item celular
     \item papel de aluminio
@@ -82,34 +82,34 @@ conductores y las ondas electro magneticas.
     \item audífonos
     \item colador de metal 
 \end{itemize}
-\end{multicols}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%Procedimiento
+
+
+%================Procedimiento=================================
 \section*{Experimento 1}
 \textit{Materiales: Papel de aluminio, celular.}
+
+
 \begin{itemize}
     \item Primero, ponemos el celular sobre el papel de aluminio.
     \item Segundo, desde otro móvil, llamamos al celular del experimento para comprobar que funciona correctamente.
     \item Luego envolvemos el celular con el papel de aluminio.
     \item Finalmente volvemos a llamar, y notamos que el celular no recibe las llamadas.
 \end{itemize}
-%Imagenes%
-\begin{figure}[h]
-    \begin{subfigure}
-       \raggedright
-       \includegraphics[width=3cm, height=5cm]{imag/Exp1_00.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \raggedleft
-        \includegraphics[width=3cm, height=5cm]{imag/Exp1_01.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \raggedright
-        \includegraphics[width=4cm, height=5cm]{imag/Exp1_02.jpg}
-    \end{subfigure}
-\end{figure}
+
+
+\begin{Figura}
+    \centering
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp1_00.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp1_01.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp1_02.jpg}
+\end{Figura}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
 
 \section*{Experimento 2}
 \textit{Materiales: Jabón, agua, bombilla, globo, bolsa ziploc.}
@@ -122,35 +122,26 @@ conductores y las ondas electro magneticas.
     de la burbuja grande, la burbuja pequeña no era atraída por el globo.
 \end{itemize}
 
-%Imagenes%
-\begin{figure}[h]
-    \begin{subfigure}
-        \raggedright
-        \includegraphics[width=4cm, height=5cm]{imag/Exp2_00.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \centering
-        \includegraphics[width=4cm, height=5cm]{imag/Exp2_01.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \raggedleft
-        \includegraphics[width=4cm, height=5cm]{imag/Exp2_02.jpg}
-    \end{subfigure}
-\end{figure}
+%================Imagenes===============
+\begin{Figura}
+    \centering
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp2_00.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp2_01.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp2_02.jpg}
+\end{Figura}  
+
+\begin{Figura}
+    \centering
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp2_03.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp2_04.jpg}
+\end{Figura}   
 
 
-\begin{figure}[h!]
-    \begin{subfigure}
-        \raggedright
-        \includegraphics[width=4cm, height=5cm]{imag/Exp2_03.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \centering
-        \includegraphics[width=4cm, height=5cm]{imag/Exp2_04.jpg}
-    \end{subfigure}
-\end{figure}
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
+
+    
 \section*{Experimento 3}
 \textit{Materiales: Colador de metal, celular, audífonos, papel de aluminio.}
     \begin{itemize}
@@ -161,19 +152,16 @@ conductores y las ondas electro magneticas.
         \item Observamos que el celular no percibe las ondas de radio, ya que la radio no funciona.
     \end{itemize}
 
-%imagenes%
-\begin{figure}[h!]
-    \begin{subfigure}
-        \raggedright
-        \includegraphics[width=4cm, height=5cm]{imag/Exp3_00.jpg}
-    \end{subfigure}
-    \begin{subfigure}
-        \centering
-        \includegraphics[width=4cm, height=5cm]{imag/Exp3_01.jpg}
-    \end{subfigure}
-\end{figure}
+%===============Imagenes================
+\begin{Figura}
+    \centering
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp3_00.jpg}
+    \includegraphics[width=1.5cm, height=3cm]{imag/Exp3_01.jpg}
+\end{Figura}
 
-%============Análisis
+
+    
+%============Análisis=====================
 \section*{Análisis}
 Al ver detenidamente cada uno de los experimentos, podemos decir que guardan relación entre ellos.
 En el primer experimento podemos notar que, cuando el teléfono lo envolvemos en papel de aluminio este no puede recibir llamadas ni tienen red wi-fi, esto nos quiere decir que el papel aluminio impide el paso de esas ondas electromagnetismo.
