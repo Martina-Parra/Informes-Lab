@@ -5,7 +5,8 @@
 \usepackage{enumitem} 
 \usepackage{graphicx}   
 \usepackage[a4paper,top=3cm,bottom=3cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry} 
-\graphicspath{ {./img/} } 
+\usepackage[]{subfigure}
+%\graphicspath{ {./img/} } 
 
 %\title{Informe I}
 %\author{}
@@ -108,6 +109,14 @@ P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T=
     
 \end{enumerate}
 
+
+
+
+
+
+
+
+
 %========Resultados
 \section{Resultados}
 
@@ -200,17 +209,82 @@ P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T=
  \end{table}
 
 
+\begin{figure}[h]
+    \begin{subfigure}
+    \raggedright
+     \includegraphics[width=8cm, height=6cm]{grafico1.pdf}
+   \caption{\label{fig:ejemplo} mi figura}
+    \end{subfigure}
+    	\begin{subfigure}
+    	  \raggedleft
+    	\includegraphics[width=8cm, height=6cm]{grafico2.pdf}
+    	\end{subfigure}
+   \begin{subfigure}
+    	  \centering
+    	\includegraphics[width=8cm, height=6cm]{grafico3.pdf}
+    	\end{subfigure}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%========Analisis
+%\section{Análisis}
+
+
 
 %========Analisis Nosé como poner las respuestas, para que queden separada de la pregunta.
 \section{Análisis}
 \begin{enumerate}
-      \item 1)¿Qué predice que le sucederá a la presión dentro de un recipiente cuando la temperatura permanece constante pero el volumen cambia?
+      \item )¿Qué predice que le sucederá a la presión dentro de un recipiente cuando la temperatura permanece constante pero el volumen cambia?
              %Respuesta 1
-      \item 2)¿Qué generalizaciones puede hacer acerca de cómo los cambios de temperatura afectan la presióncuando el volumen en un recipiente permanece constante?
+      \item )¿Qué generalizaciones puede hacer acerca de cómo los cambios de temperatura afectan la presióncuando el volumen en un recipiente permanece constante?
             %Respuesta 2
-      \item 3)¿Qué representa el ́area bajo la curva en un diagrama (P-V)? ¿Cómo se calcula?
+      \item )¿Qué representa el ́area bajo la curva en un diagrama (P-V)? ¿Cómo se calcula?
             %Respuesta 3
 \end{enumerate}
+
 %========Conclusión
 %\section{Conclusión}
 
