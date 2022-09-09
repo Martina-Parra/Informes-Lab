@@ -1,0 +1,4 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[1] Config.pm:309> INFO - Logfile is 'build/lab1.electro2.blg'
+[321] biber-MSWIN64:340> INFO - === 
+[370] Biber.pm:418> INFO - Reading 'build/lab1.electro2.bcf'
