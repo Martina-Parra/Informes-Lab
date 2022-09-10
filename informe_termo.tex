@@ -8,6 +8,9 @@
 \usepackage[]{subfigure}
 \graphicspath{{./graficos/Lab-Termo/Git/Documentos}} 
 \usepackage{float}
+\usepackage[]{txfonts}
+
+
 
 %\title{Informe I}
 %\author{}
@@ -56,8 +59,8 @@
 %========Introducción
 \section{Introdución}
 En este informe presentaremos series de datos obtenidos en la simulación de laboratorio, en la cual se realizo por medio de un simulador para medir distintas propiedades termodinámicas de gases ideales.
-En el cual primero definiremos que es un gas ideal y como se relacionan las propiedades termodinámicas p, V y T. Para luego definir los materiales que usaremos en nuestro laboratorio.
-Además, exhibiremos tablas de datos donde se hizo cariar tanto la longitud del recipiente como la temperatura, donde estas serán representadas en gráficos V-P y T-V de los cuales obtendremos información con la que podremos responder las preguntas propuestas y obtener conclusiones.
+ Primero definiremos que es un gas ideal y como se relacionan las propiedades termodinámicas $P$, $V$ y $T$, para luego definir los materiales que usaremos en nuestro laboratorio.
+Además, exhibiremos tablas de datos donde se hizo variar tanto la longitud del recipiente como la temperatura, donde estas serán representadas en gráficos $P-V$ y $T-V$ de los cuales obtendremos información con la que podremos responder las preguntas propuestas y obtener conclusiones.
 Los objetivos del laboratorio son:
  \begin{itemize}  %Objetivos
       \item Comprobar usando la simulación, las leyes de gases ideales.
@@ -68,19 +71,30 @@ Los objetivos del laboratorio son:
 
 %=========Marco Teórico
 \section{Marco Teórico}
-Gas ideal: Modelo idealizado que representa muy bien el comportamiento 
-de los gases en algunas circunstancias (Como a presiones bajas)
-Las caracteristicas de un gas ideal son:
-\begin{itemize}
-      \item Las particulas del gas no tienen volumen (Ocupan el volumen del envase que los contiene)
-      \item No se tienen en cuenta las interacciones de atracción y repulsión molecular.
-\end{itemize}
-Las propiedades termodinámicas de un gas ideal tienen las siguientes relaciones entre ellos.
+
+Gas ideal: Modelo idealizado que representa el comportamiento 
+de los gases a bajas presiones cuando  las moléculas están separadas entre sí. Además, no se
+consideran las interacciones de atracción y repulsión molecular.
+
+
+Las propiedades termodinámicas de un gas ideal se relacionan de la siguiente manera:
 \begin{equation*}
       PV=nRT
 \end{equation*}
-donde :
-P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T= Temperatura [K°]
+
+\,donde :
+\begin{itemize}
+      \item $P$= Presión$[atm]$
+      \item $V$= Volumen total [$m^3$]
+      \item $R$= Constante de los gases
+      \item $T$= Temperatura $[K°]$
+\end{itemize}
+
+De acuerdo a la ecuación de estado de los gases ideales y por lo visto en clases, nuestras hipótesis son:
+\begin{enumerate}
+      \item Para el primer experimento, al variar el volumen y la temperatura, tambien lo hará la presión.
+      \item Para el segundo experimento, en un sistema isobárico, al variar la temperatura, el volumen deberá cambiar.
+\end{enumerate}
 %=========Materiales
 
 \newpage
@@ -223,14 +237,9 @@ P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T=
 
 \begin{figure}[H]
     \begin{subfigure}
-<<<<<<< HEAD
     \raggedright
      \includegraphics[width=8cm, height=6cm]{graficos/grafico1.pdf}
       \caption{\label{fig:ejemplo} mi figura}
-=======
-    		\raggedright
-     	\includegraphics[width=8cm, height=6cm]{graficos/grafico1.pdf}
->>>>>>> e1a4e6a1c4c7f037ddaa4a0eb69ade00fef8a0d9
     \end{subfigure}
     	\begin{subfigure}
     		\raggedright
@@ -279,7 +288,10 @@ P= Presión[atm]   , V= Volumen total [$m^3$] , R= Constante de los gases  y  T=
 
 
 
-
+\begin{thebibliography}{6}
+      \bibitem{Materia} Materia, T. (2021, 23 junio). Leyes de los gases: cuáles son y sus fórmulas (con ejemplos). Toda Materia. Recuperado 10 de septiembre de 2022, 
+      de \url{https://www.todamateria.com/leyes-de-los-gases/}
+\end{thebibliography}
 
 
 
