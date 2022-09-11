@@ -5,3 +5,4 @@
 \contentsline {section}{\numberline {4}Procedimiento}{2}{section.4}%
 \contentsline {section}{\numberline {5}Resultados}{3}{section.5}%
 \contentsline {section}{\numberline {6}Análisis}{6}{section.6}%
+\contentsline {section}{\numberline {7}Análisis}{6}{section.7}%
