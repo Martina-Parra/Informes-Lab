@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.3)  10 SEP 2022 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.5.3)  10 SEP 2022 21:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,21 +316,274 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count277
 \l__pdf_internal_box=\box50
 )
-(./informe_termo.aux)
+(./informe_termo.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
 \openout1 = `informe_termo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info: 
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Info: Redefining \. on input line 18.
+LaTeX Info: Redefining \% on input line 18.
+\AtBeginShipoutBox=\box51
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count278
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
+
+(./informe_termo.out) (./informe_termo.out)
+\@outlinefile=\write3
+\openout3 = `informe_termo.out'.
+
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count279
+\scratchdimen=\dimen162
+\scratchbox=\box52
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen163
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=49.79231pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<graficos/escudo_udec.png, id=28, 451.6875pt x 451.6875pt>
+File: graficos/escudo_udec.png Graphic file (type png)
+<use graficos/escudo_udec.png>
+Package pdftex.def Info: graficos/escudo_udec.png  used on input line 22.
+(pdftex.def)             Requested size: 85.35696pt x 85.35284pt.
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./graficos/escudo_udec.png
+>] (./informe_termo.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write4
+\openout4 = `informe_termo.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \newpage
+              [1]
+<imag/Materiales.png, id=55, 563.10374pt x 426.09187pt>
+File: imag/Materiales.png Graphic file (type png)
+<use imag/Materiales.png>
+Package pdftex.def Info: imag/Materiales.png  used on input line 92.
+(pdftex.def)             Requested size: 341.43063pt x 199.17093pt.
+ [2 <./imag/Materiales.png>] [3pdfTeX warning (ext4): destination with the same
+ identifier (name{table.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.219 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.219 
+      ]
+<graficos/grafico1.pdf, id=71, 462.528pt x 346.896pt>
+File: graficos/grafico1.pdf Graphic file (type pdf)
+<use graficos/grafico1.pdf>
+Package pdftex.def Info: graficos/grafico1.pdf  used on input line 224.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico2.pdf, id=72, 462.528pt x 346.896pt>
+File: graficos/grafico2.pdf Graphic file (type pdf)
+<use graficos/grafico2.pdf>
+Package pdftex.def Info: graficos/grafico2.pdf  used on input line 228.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico3.pdf, id=73, 462.528pt x 346.896pt>
+File: graficos/grafico3.pdf Graphic file (type pdf)
+<use graficos/grafico3.pdf>
+Package pdftex.def Info: graficos/grafico3.pdf  used on input line 232.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico4.pdf, id=74, 462.528pt x 346.896pt>
+File: graficos/grafico4.pdf Graphic file (type pdf)
+<use graficos/grafico4.pdf>
+Package pdftex.def Info: graficos/grafico4.pdf  used on input line 236.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico5.pdf, id=75, 462.528pt x 346.896pt>
+File: graficos/grafico5.pdf Graphic file (type pdf)
+<use graficos/grafico5.pdf>
+Package pdftex.def Info: graficos/grafico5.pdf  used on input line 240.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico6.pdf, id=76, 462.528pt x 346.896pt>
+File: graficos/grafico6.pdf Graphic file (type pdf)
+<use graficos/grafico6.pdf>
+Package pdftex.def Info: graficos/grafico6.pdf  used on input line 244.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico7.pdf, id=77, 462.528pt x 346.896pt>
+File: graficos/grafico7.pdf Graphic file (type pdf)
+<use graficos/grafico7.pdf>
+Package pdftex.def Info: graficos/grafico7.pdf  used on input line 248.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+<graficos/grafico8.pdf, id=78, 462.528pt x 346.896pt>
+File: graficos/grafico8.pdf Graphic file (type pdf)
+<use graficos/grafico8.pdf>
+Package pdftex.def Info: graficos/grafico8.pdf  used on input line 252.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+
+Overfull \hbox (32.89648pt too wide) in paragraph at lines 223--254
+[][][]  [][][]
+ []
+
+
+Overfull \hbox (32.89648pt too wide) in paragraph at lines 223--254
+[][][]  [][][]
+ []
+
+
+Overfull \hbox (32.89648pt too wide) in paragraph at lines 223--254
+[][][]  [][][]
+ []
+
+
+Overfull \hbox (32.89648pt too wide) in paragraph at lines 223--254
+[][][]  [][][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--254
+
+ []
+
+<graficos/grafico9.pdf, id=79, 462.528pt x 346.896pt>
+File: graficos/grafico9.pdf Graphic file (type pdf)
+<use graficos/grafico9.pdf>
+Package pdftex.def Info: graficos/grafico9.pdf  used on input line 257.
+(pdftex.def)             Requested size: 227.6217pt x 170.71628pt.
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.3}) h
+as been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.258 \end{figure}
+                  ]
+Overfull \vbox (38.53479pt too high) has occurred while \output is active []
+
+
+[5 <./graficos/grafico1.pdf> <./graficos/grafico2.pdf> <./graficos/grafico3.pdf
+> <./graficos/grafico4.pdf> <./graficos/grafico5.pdf> <./graficos/grafico6.pdf>
+ <./graficos/grafico7.pdf> <./graficos/grafico8.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+ [6 <./graficos/grafico9.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+ (./informe_termo.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
+Package rerunfilecheck Info: File `informe_termo.out' has not changed.
+(rerunfilecheck)             Checksum: 8ECBB38E4E042A1CBAC3A313C7DCAABA;284.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
+ ) 
+Here is how much of TeX's memory you used:
+ 7895 strings out of 481239
+ 118172 string characters out of 5920378
+ 414854 words of memory out of 5000000
+ 22994 multiletter control sequences out of 15000+600000
+ 535937 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,8n,35p,314b,376s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on informe_termo.pdf (7 pages, 326371 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
+
