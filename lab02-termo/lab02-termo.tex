@@ -22,7 +22,7 @@
 \begin{titlepage}
       \begin{center}     
               
-            %\includegraphics[width=0.2\textwidth]{graficos/escudo_udec.png}                       %Para poner logo udec   %{nombre carpeta\nombreimagen}
+            \includegraphics[width=0.2\textwidth]{imag/escudo_udec.png}                       %Para poner logo udec   %{nombre carpeta\nombreimagen}
             
             
             
@@ -32,7 +32,7 @@
             \vspace{1cm}
             {\scshape\Large Facultad de ciencias fisícas y matemáticas \par}
             \vspace{2cm}
-            {\scshape\Huge Laboratorio 1 \par}
+            {\scshape\Huge Laboratorio 2 \par}
             \vspace{2cm}
             {\itshape\Large Proyecto laboratorio termodinámica \par}
             \vfill
@@ -61,22 +61,87 @@
 
 %========Introducción
 \section{Introdución}
+Presentaremos en este informe datos obtenidos del simulador de laboratorio, del cual debimos anotar en una tabla la temperatura de 3 diferentes sustancias para 4 experiencias distintas. Además mostraremos las curvas de calentamientos , los puntos de fusión y ebullición, los calores latentes de fusión y de ebullición, de cada sustancias.
+En donde primero definiremos, que es un calor latente de fusión y de ebullición, también diremos como se relacionan estas con la masa, temperatura inicial y el calor. Para luego exponer los materiales utilizados para el laboratorio, además del procedimiento seguido para realizarlo.
+Los datos serán presentados tanto en tablas como en gráficas, de las cuales obtendremos información con la que responderemos las preguntas propuestas. 
+Por último, diremos si se logro cumplir los objetivos de este laboratorio y diremos si nuestra hipótesis planteada fue correcta o incorrecta.
+
+\section{Objetivos}
+\begin{itemize}
+      \item Determinar experimentalmente las curvas de calentamiento de diferentes sustancias.
+      \item Determinar los puntos de fusión y de ebullición de diferentes sustancias.
+      \item Estudiar algunos factores que intervienen en el calentamiento de una sustancia.
+      \item Determinar calores latentes de fusión y de ebullición.
+\end{itemize}
+
 
 
 
 %=========Marco Teórico
-\section{Marco Teórico}
+\section{Marco Teórico} 
+
+\begin{itemize}
+      \item \textbf{Capacidad calorífica: }(a cualquier temperatura) se define como  el limite de C cuando $\varDelta T$ tiende a 0:
+      \begin{align}
+            C = \frac{d'Q}{dT}           \qquad \left[\frac{J}{K}\right]              
+      \end{align}
+      donde: \\ \\
+      $d'Q = $ Representa un pequeño flujo de calor. \\
+      $dT = $ Es el correspondiente al cambio de temperatura. 
+
+      \item \textbf{Calor específico: } Capacidad calorífica por unidad de masa o mol.
+      \begin{align}
+            c = \frac{C}{n}   \quad \left[\frac{J}{Kilo\cdot molK}\right]  \qquad o  \qquad c = \frac{C}{m} \quad \left[\frac{J}{KgK}\right]
+      \end{align}
+
+      \item \textbf{Cantidad total de calor } que fluye en un sistema en cualquier proceso, viene dado por:
+      \begin{align}
+            Q = \int d'Q &= \int_{T_i}^{T_F} C\cdot dT \\ \nonumber
+                         &= \int_{T_i}^{T_F} mc\cdot dT
+      \end{align}
+      cuando c es constante, obtenemos que:
+      \begin{align}
+            Q = mc \, \varDelta T
+      \end{align}
+
+      \item \textbf{Calor latente o de transformación: } Es la razón del calor absorbido a la masa m que experimenta el cambio de fase. 
+      \begin{align}
+            l = \frac{Q}{m}                \qquad \left[\frac{J}{Kg}\right]
+      \end{align}
+      donde: \\ \\
+      $Q$ = Es el flujo de calor necesario para que exista un cambio de fase.\\
+      $n$ = moles
+
+      \item \textbf{Cambio de fase: } se refiere a que una sustancia que absorve o cede calor sin que haya un cambio en su temperatura.
+      \item \textbf{Calor latente de fusión: }es el calor requerido por unidad de masa para cambiar de un estado sólido a líquido a una presión y temperatura fija.
+      \item \textbf{Calor latente de evaporación: } es el calor requerido por unidad de masa para pasar de un estado líquido a gaseoso a una presión y temperatura fija.
+\end{itemize} 
+Cada concepto fue extraído de \cite{libro}. \\
+
+Nuestras hipótesis son:
+\begin{enumerate}
+      \item A mayor cantidad de sustancia, mayor será el tiempo en el que alcance el punto de ebullición.
+      \item  A mayor potencia, la sustancia alcanza más rápido su punto de ebullición.
+      \item A mismas condiciones iniciales, diferentes sustancias pueden alcanzar su punto de ebullición en distintos intervalos de tiempo.
+      
+      
+\end{enumerate}
+
+
+
+
 
 
 
 %=========Materiales
-
-
 \section{Materiales}
+
+
 \begin{itemize}
       \item Termómetro digital
       \item Vaso precipitado
-      \item Estufa eléctrica agua
+      \item Estufa eléctrica 
+       \item Agua
       \item Alcohol etílico
       \item Benceno
 \end{itemize}
@@ -84,28 +149,38 @@
 
 
 
+\begin{figure}[H]
+      \begin{subfigure}
+            \raggedleft
+            \includegraphics[width=4cm, height=4cm]{imag/agua.jpg}
+      \end{subfigure}
+      \begin{subfigure}
+            \raggedleft
+            \includegraphics[width=4cm, height=4cm]{imag/alcohol.jpg}
+      \end{subfigure}
+      \begin{subfigure}
+            \raggedleft
+            \includegraphics[width=4cm, height=4cm]{imag/benceno.jpg}   
+      \end{subfigure}   
+      \begin{subfigure}
+            \raggedleft
+            \includegraphics[width=4cm, height=4cm]{imag/estufa.jpg} 
+      \end{subfigure}
+      \begin{subfigure}
+            \raggedleft
+            \includegraphics[width=5cm, height=4cm]{imag/termometro.jpg} 
+      \end{subfigure}
+\end{figure}     
+
+
+
+
+
+
+
 
 
 \section{Procedimiento y Resultados}
-%%%%%%GRAFICOS%%%%%%%%
-% \begin{figure}[H]      
-%             \begin{subfigure}
-%                   \raggedright
-%                   \includegraphics[width=8cm, height=6cm]{masa/grafico-alcohol-masa.pdf}
-%             \end{subfigure}
-%       \begin{subfigure}
-%                   \raggedright
-%                   \includegraphics[width=8cm, height=6cm]{potencia/grafico-benceno-potencia.pdf}
-%             \end{subfigure}
-%             \begin{subfigure}
-%                   \raggedright
-%                   \includegraphics[width=8cm, height=6cm]{naturaleza/grafico-naturaleza-sustancias.pdf}
-%             \end{subfigure}
-% \end{figure}
-
-
-
-
 
 
 \subsection{Determinación puntos de fusión y de ebullición}
@@ -312,7 +387,7 @@ Según los datos obtenidos \ref{img: naturaleza} el alcohol, a mismas condicione
 
 \begin{table}[H]
       \centering
-      \begin{tabular}{|c|c|c|}
+      \begin{tabular}{|c|c|c|}\hline
             Sustancia [W]& Tiempo [s] & Temperatura [°C]\\ \hline
                             &  0.0  &0.0\\
                             & 29.9  &0.0\\
@@ -359,6 +434,89 @@ Según los datos obtenidos \ref{img: naturaleza} el alcohol, a mismas condicione
       \includegraphics[width=12cm, height=8cm]{naturaleza/grafico-naturaleza-sustancias.pdf}
       \label{img: naturaleza}
 \end{figure}
+
+\section{Análisis}
+\begin{enumerate}
+	\item ¿Qué es el calor latente de fusión y evaporación?\\
+		  R: El calor latente de fusión es el calor requerido por unidad de masa para cambiar de un estado sólido a líquido a una presión y temperatura fija, similarmente, el calor latente de evaporación es el calor requerido por unidad de masa para pasar de un estado líquido a gaseoso a una presión y temperatura fija.\\
+	\item Un calorímetro contiene 220 ml de agua a 55ºC y 27 g de hielo a 0ºC. Determine la temperatura final del sistema.Sea $L_{f} = 3.33x10^2 J/g$, el calor latente de de fusión del hielo.\\ \\
+		  R: Nuestros datos son\\ 
+		     $m_{a} = 220 m$\\
+		     $m{H} = 27 g$\\
+		     $Ti_a$ = 55ºC , temperatura inicial del agua. \\
+		     $Ti_H$ = 0ºC, temperatura inicial del hielo. \\ 
+		     $L_{f} = 3.33 x 10^2 J/g$, calor latente de fusión del hielo.\\
+		     $c_{a}$ = 4.1813 J/gºC , calor especifíco del agua.\\
+		     
+		     Primero como el agua está a mayor temperatura que el hielo, la agua será la que cede calor y el hielo el que absorbe calor,\\ 
+		     como el agua esta en ml, tenemos que convertir los ml a g, donde podemos usar la relacion $\rho = m/V$, donde $\rho$ es densidad, donde m es masa y V es el volumen, donde la densidad del agua, es aproximadamente $1g/ml$, de aquí tenemos que 1g de agua es igual a 1ml.\\
+		     El calor del agua viene dado por:\\
+		      
+		     $Q_{a} = \int_{Ti}^{Tf} \!dQ \, dt  = \int_{Ti}^{Tf} \! mc \Delta T \, dt = c_{a} m_{a} \Delta T $, \\ 
+		     
+		     y el calor del hielo viene dado por:\\ 
+		     
+		     $Q_{H} = m_{H}L_{f} + m_{H}c_{a} \Delta T $,\\
+		     
+		     ,donde $m_{H}L_{f}$ corresponde al calor requerido para pasar de estado sólido, el hielo, a estado líquido, agua y $m_{H}c_{a} \Delta T$ corresponde al calor requerido para pasar de la temperatura que tiene el hielo derretido de 0ºC a $T_{f}$.\\
+		     
+		     Como el agua está a mayor temperatura que el hielo, la agua será la que cede calor y el hielo el que absorbe calor y por el principio de conservación de la energía tenemos que,\\
+		     \begin{equation}\label{eq1}
+		     m_{H}L_{f} + m_{H}c_{a} \Delta T = -(c_{a} m_{a} \Delta T),
+		     \end{equation} 
+		     
+		     reemplazando nuestros datos en \ref{eq1} tenemos que,
+		     \begin{equation}\label{eq2}
+		     27 g \times 3.33 \times 10^2\dfrac{J}{g} + 27 g \times 4.1813\dfrac{J}{gºC}(T_{f} - 0ºC) = -(4.1813\dfrac{J}{gºC} \times 220 g(T_{f} - 55ºC))
+		     \end{equation}
+		     
+		     resolviendo \ref{eq2} tenemos que,
+		     
+		     $T_{f}$ = 40.282ºC
+		     
+		  \item ¿Cuánto calor debe agregarse a 22 g de aluminio a 37ºC para fundirlo completamente?.Sea $c_{Al} =$ 0,9JºC el calor específico del aluminio y $L_{f} = 397J/g$, el calor latente de fusión del aluminio.
+Nota:Buscar el punto de fusión del aluminio.\\
+		  R: Nuestros datos son:\\
+		  
+		     $m_{al} = 22g$ \\
+		     $c_{al}$ = 0.9J/gºC, el calor especifíco del aluminio \\
+		     $T_{i}$ = 37ºC, temperatura inicial del aluminio \\
+		     $T_{f}$ = 660.3ºC \\
+		     $L_{f}$ = 397J/g, calor latente de fusión del aluminio \\  
+		     
+		     Sabemos que la temperatura de fusión del aluminio es 660.3ºC.\\
+		     El calor total será el calor requerido para pasar el aluminio de 37ºC a 660.3ºC más el calor requerido para pasar el aluminio a 660.3ºC de estado sólido a estado líquido, al igual que la pregunta anterior $\int_{Ti}^{Tf} \!dQ \, dt  = \int_{Ti}^{Tf} \! mc \Delta T \, dt =  m_{al}c_{al} \Delta T $ con esto tenemos que
+		     \begin{equation}\label{eq3}
+		     Q_{al} = m_{al}c_{al} \Delta T + m_{al}L_{f}  
+		     \end{equation}
+		     
+		     reemplazando en \ref{eq3} nuestros datos, tenemos que 
+		    \begin{equation}\label{eq4}
+		    Q_{al} = 22 g \times 0.9\dfrac{J}{gºC}(660.3ºC - 37ºC) + 22 g \times 397\dfrac{J}{g}
+		    \end{equation}
+		    
+		    Resolviendo \ref{eq4} obtenemos que,\\
+		   
+		    $Q_{al} = 21075.34 J$
+		    
+\end{enumerate}
+
+
+
+\section{Conclusión}
+Al finalizar el informe, podemos decir que los objetivos se cumplieron. Se logro graficar las curvas de calentamiento de cada sustancia, determinamos tantos los puntos de fusión y de ebullición como el calor latente de fusión y 
+de ebullición para cada sustancia, además de comprender que la masa, la temperatura inicial y el calor, tienen relación directa con la velocidad con la que llegan las sustancias a sus puntos de ebullición y fusión, de esta forma 
+corroborando de manera experimental la ecuación de calor latente. \\
+A base de estos experimentos conseguimos los datos suficientes para afirmar la veracidad de nuestras hipótesis, por las que pudimos concluir que:
+\begin{itemize}
+ \item A mayor masa de una sustancia cualquiera, esta necesitará absorber mayor cantidad de energía para poder lograr llegar tanto a su punto de fusión y de ebullicion, es decir, les tomará más tiempo en llegar.
+ \item A mayor potencia que se le aplique a una sustancia esta tenderá a llegar más rápido a su puntos de fusión y de ebullición.
+ \item Cada sustancias poseen sus propiedades únicas, las cuales produce que sus puntos de fusión y de ebullición, sean alcanzados en distintos intervalos y además estos son diferentes.
+\end{itemize}
+\begin{thebibliography}{6}
+      \bibitem{libro} Sears, F. W., Salinger, G. L. \& Peris, A. J. (2021, 10 enero). Termodinámica, teoría cinética y termodinámica estadística (Spanish Edition) (1.a ed.). Reverte.
+      \bibitem{profe} Apuntes del profesor Claudio Faúndez.
+\end{thebibliography}
 
 
 
