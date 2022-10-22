@@ -1,8 +1,0 @@
-\babel@toc {spanish}{}
-\contentsline {section}{\numberline {1}Introdución}{2}{section.1}%
-\contentsline {section}{\numberline {2}Marco Teórico}{2}{section.2}%
-\contentsline {section}{\numberline {3}Materiales}{3}{section.3}%
-\contentsline {section}{\numberline {4}Procedimiento}{3}{section.4}%
-\contentsline {section}{\numberline {5}Resultados}{4}{section.5}%
-\contentsline {section}{\numberline {6}Análisis}{7}{section.6}%
-\contentsline {section}{\numberline {7}}{7}{section.7}%
