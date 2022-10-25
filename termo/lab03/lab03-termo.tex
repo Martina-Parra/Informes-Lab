@@ -176,11 +176,50 @@ Nuestra hipótesis es:
       alcance el equilibrio térmico. Por último, medimos la temperatura final, $T_f$.
 \end{itemize}
 
-\section{Preguntas}
+\section{Análisis}
 \begin{enumerate}
-    \item Calcular el calor específico $(c)$ del metal.
-    \item Colocar el valor de referencia para el calor específico del metal y comparar con el valor calculado (usando error porcentual).
-\end{enumerate}
+      \item Calcular el calor específico de (c) del metal.\\
+      R: Nuestros datos son\\ 
+                     $m_{a} = 281.5 g$ ó $0.2815 kg$, masa del agua \\
+                     $m_{Ac} = 225.9 g$ ó $0.2259 kg$, masa del acero\\
+                     $Ti_a$ = 17ºC ó 290K , temperatura inicial del agua. \\
+                     $Ti_Ac$ = 100ºC ó 373K, temperatura inicial del acero. \\ 
+                     $c_{a}$ = 4184 J/kgK , calor especifíco del agua. \cite{agua}\\
+                     $Tf$ = 23ºC ó 296K, temperatura final.\\ 
+                     
+                     Primero como el acero es el que está a mayor temperatura que el agua, el acero será el que ceda calor y al agua la que absorbe calor, y por el principio de conservación de la energía, tenemos que:\\
+                     \begin{equation}\label{eq1}
+                     Q_{a} = -Q_{Ac} 
+                     \end{equation}
+                     ,donde $ Q_{a}$ es el flujo de calor del agua, y $Q_{Ac}$ es el flujo del calor del acero.\\ 
+                     
+                     El flujo de calor del agua viene dado por:
+                     \begin{equation}\label{eq2}
+                     Q_{a} = \int_{Ti}^{Tf} \! \, d^{\prime}Q  = \int_{Ti}^{Tf} \! m_{a}c_{a} \, dt = c_{a} m_{a} \Delta T,
+                     \end{equation}
+                     El flujo de calor del acero viene dado por:
+                     \begin{equation}\label{eq3}		       
+                     Q_{Ac} = \int_{Ti}^{Tf} \! \, d^{\prime}Q  = \int_{Ti}^{Tf} \! m_{Ac}c_{Ac} \, dt = c_{Ac} m_{Ac} \Delta T,
+                     \end{equation}
+                    
+                    Reemplazando \ref{eq2} y \ref{eq3} en \ref{eq1}, tenemos que 
+                    \begin{equation}\label{eq4}
+                    c_{a} m_{a} \Delta T = -c_{Ac} m_{Ac} \Delta T
+                    \end{equation}
+                    
+                    Reemplazando nuestros datos en \ref{eq4}, tenemos que 
+                    \begin{equation}\label{eq5}
+                    4184 \dfrac{J}{kgK} \times 0.2815Kg(296K - 290K) = -(c_{Ac} \times 0.2259kg(296K - 373K))
+                    \end{equation}
+                    
+                    Como nosostros queremos calcular $c_{Ac}$, despejamos $c_{Ac}$ en \ref{eq5}, así tenemos que.\\
+                    $c_{Ac} = 406.27 \dfrac{J}{kgK}$  		    
+                      
+      \item Colocar el valor de referencia para el calor especifíco del metal y comparar con el valor calculado (usando error porcentual).\\
+      Nuestro valor de referencia será $c_{Ac}$ = 460 J/kgK el cual fue obtenido de \cite{acero}, nosotros obtuvimos que $c_{Ac}$ = 406.27 J/kgK, de estos dos usando el error absoluto y el error relativo, obtenemos que su error porcentual es $11.68\%$. 
+      
+      
+    \end{enumerate}   
 
 
 \section{Conclusión}
@@ -194,6 +233,10 @@ Es factible calcular el calor especifico de cualquier material, a través de la 
 \begin{thebibliography}{6}
       \bibitem{libro} Sears, F. W., Salinger, G. L. \& Peris, A. J. (2021, 10 enero). Termodinámica, teoría cinética y termodinámica estadística (Spanish Edition) (1.a ed.). Reverte.
       \bibitem{profe} Faundez Araya, C. A. (s. f.). Capítulo 3. Primer Principio de la Termodinámica [Diapositivas]. Universidad de Concepción, 2022.
+      \bibitem{agua}Fundación Aquae. (2021, 10 agosto). CP del agua: significado y valores - Fundación Aquae. FundaciÃ3n Aquae. 
+      \url{https://www.fundacionaquae.org/wiki/cp-del-agua/}
+      \bibitem{acero}DeterminaciÃ3n del calor especÃ­fico de un sÃ3lido. (s. f.). Recuperado 25 de octubre de 2022,
+       de \url{http://www.sc.ehu.es/sbweb/fisica/estadistica/otros/calorimetro/calorimetro.htm}
 \end{thebibliography}
 
 
