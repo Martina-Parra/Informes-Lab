@@ -54,14 +54,17 @@
             {\Large Noviembre 2022 \par}
       \end{center}
 \end{titlepage}            
-%\maketitle  
+ 
 
 \tableofcontents
 \newpage
 
 %========Introducción
 \section{Introdución}
-
+En este informe se presentarán los datos obtenidos en la experiencia de laboratorio, con el fin de calcular el calor específico de una barra de acero.
+Primero se mencionarán los objetivos de este laboratorio, después definiremos que es un calor específico y el Principio de Conservación de la Energía. 
+Luego, expondremos los materiales utilizados y el procedimiento a seguir, del cual obtendremos, datos necesarios para responder a las preguntas propuestas en el análisis.
+Para finalizar, diremos si se lograron cumplir los objetivos y veracidad de nuestra hipótesis
 
 \section{Objetivos}
 \begin{itemize}
@@ -98,28 +101,25 @@
             Q = mc \, \varDelta T
       \end{align}
 
-      \item \textbf{Calor latente o de transformación: } Es la razón del calor absorbido a la masa m que experimenta el cambio de fase. 
-      \begin{align}
-            l = \frac{Q}{m}                \qquad \left[\frac{J}{Kg}\right]
+      \item \textbf{Principio de conservación de la energía}
+      \begin{align} \label{p.energia}
+            Q_{a,absorbe} &= Q_{x,cede}  \nonumber \\ 
+            m_a c_a(T_e - T_{i,a}) &= -m_x c_x (T_e - T_{ix})    
       \end{align}
-      donde: \\ \\
-      $Q$ = Es el flujo de calor necesario para que exista un cambio de fase.\\
-      $n$ = moles
+      donde: \\
+      $T_e =$ Temperatura de equilibrio, \\
+      $T_i =$ Temperatura inicial, \\
+      \textbf{'-'} = Indica que el calor de un cuerpo se cede. \\
+      $C_{a,x} =$ Calor específico.
 
-      \item \textbf{Cambio de fase: } se refiere a que una sustancia que absorve o cede calor sin que haya un cambio en su temperatura.
-      \item \textbf{Calor latente de fusión: }es el calor requerido por unidad de masa para cambiar de un estado sólido a líquido a una presión y temperatura fija.
-      \item \textbf{Calor latente de evaporación: } es el calor requerido por unidad de masa para pasar de un estado líquido a gaseoso a una presión y temperatura fija.
+      
 \end{itemize} 
 Cada concepto fue extraído de \cite{libro}. \\
 
-Nuestras hipótesis son:
-\begin{enumerate}
-      \item A mayor cantidad de sustancia, mayor será el tiempo en el que alcance el punto de ebullición.
-      \item  A mayor potencia, la sustancia alcanza más rápido su punto de ebullición.
-      \item A mismas condiciones iniciales, diferentes sustancias pueden alcanzar su punto de ebullición en distintos intervalos de tiempo.
-      
-      
-\end{enumerate}
+Nuestra hipótesis es:
+\begin{itemize}
+      \item Se puede calcular el calor específico de una sustancia, usando el principio de conservación de la energía \eqref{p.energia} .
+\end{itemize}
 
 
 %=========Materiales
@@ -166,13 +166,13 @@ Nuestras hipótesis son:
 \section{Procedimiento}
 
 \begin{itemize}
-      \item Se masa el trozo de metal $m_M$.
-      \item Se vacían alrededor de $850 [ml]$ de agua en el generador de vapor, y se cuelga el trozo de metal desde el soporte universal,
-      de modo que quede totalmente sumergido y se enciende. Esperamos hasta que el agua hierva.
+      \item Primero, masamos el trozo de metal $m_M$.
+      \item Luego, vaciamos alrededor de $850 [ml]$ de agua en el generador de vapor, y colgamos el trozo de metal desde el soporte universal,
+      de modo que quede totalmente sumergido. Encendemos el aparato y esperamos hasta que el agua hierva.
       \item Paralelamente, masamos $350 [ml]$ de agua, $m_a$, luego calculamos su temperatura, $T_{a,i}$ y la vaciamos en el calorímetro. 
-      \item Una vez que hierve el agua, se deja encendido hasta por 2 minutos, de forma que el trozo de metal alcance el 
-      equilibrio térmico con el agua del generador. Después medimos la temperatura del agua $T_{m,i}$.
-      \item Trasladamos el trozo de metal hacía el calorímetro y lo cerramos. Luego, agitamos el agua hasta que al interior se 
+      \item Una vez que hierve el agua, dejamos encendido hasta por 2 minutos, de forma que el trozo de metal alcance el 
+      equilibrio térmico con el agua del generador. Después, medimos la temperatura del agua $T_{m,i}$.
+      \item Trasladamos el trozo de metal hacía el calorímetro y lo cerramos. Luego, agitamos el agua hasta que en el interior se 
       alcance el equilibrio térmico. Por último, medimos la temperatura final, $T_f$.
 \end{itemize}
 
@@ -184,14 +184,16 @@ Nuestras hipótesis son:
 
 
 \section{Conclusión}
-
+Al finalizar este informe, podemos decir que los objetivos se cumplieron. Calculamos el calor especifico de la barra de acero y la comparamos con la existente en la literatura.
+Además, gracias a los datos obtenidos, logramos demostrar la veracidad de nuestra hipótesis, por la cual, podemos concluir que: \\
+Es factible calcular el calor especifico de cualquier material, a través de la ley de la conservación de la energía.
 
 
 
 
 \begin{thebibliography}{6}
       \bibitem{libro} Sears, F. W., Salinger, G. L. \& Peris, A. J. (2021, 10 enero). Termodinámica, teoría cinética y termodinámica estadística (Spanish Edition) (1.a ed.). Reverte.
-      \bibitem{profe} Apuntes del profesor Claudio Faúndez.
+      \bibitem{profe} Faundez Araya, C. A. (s. f.). Capítulo 3. Primer Principio de la Termodinámica [Diapositivas]. Universidad de Concepción, 2022.
 \end{thebibliography}
 
 
