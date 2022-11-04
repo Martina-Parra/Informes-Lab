@@ -33,32 +33,52 @@
 \maketitle 
 
 \begin{abstract}
-  En este laboratorio se llevaron a cabo 3 experimentos relacionados con el electromagnetismo:  el motor homopolar, el electroimán e inducción electromagnética.
-  Finalmente, se concluye lo siguiente,  cuando hay una corriente eléctrica pasando por un cable se genera un campo magnético, además si se hace variar este útimo, generará una fem\footnote[1]{Fuerza Electro Motriz}.
-  
+  En este laboratorio se llevaron a cabo 4 experimento relacionados con los circuitos eléctricos, donde se hizo varear el voltaje de entrada para estudiar la variación de la intensidad de corriente en cada circuito.
+Los circuitos utilizados fueron: Conductor metálico, Filamento de ampolleta de linterna, Diodo semiconductor común y Diodo emisor de luz (DEL o LED).
+Donde se concluye que la cantidad de intensidad de corriente soportada por cada circuito depende de los materiales que componen.
 \end{abstract}
+
 
 
 %========Introducción=============
 \section*{Introdución}
-
+Los primeros pasos para la creación de circuitos eléctricos fueron dada por el químico Alessandro Volta y la creación de la primera pila moderna. Ese fue el punto de partida básico para la   utilización práctica de la energía eléctrica pasando a través de circuitos para cumplir diferentes finalidades.
+Más tarde, hacia 1826, sería Georg Simon Ohm quien sentará las bases del estudio de la circulación de las cargas eléctricas en el interior de materias conductoras y formula la ley que relaciona las tres magnitudes más importantes: voltaje, intensidad y resistencia.
+En este informe, primero definiremos conceptos claves para entender que es un circuito, tales como: Voltaje, Intensidad y resistencia. Luego presentaremos los materiales y procedimientos utilizados y un análisis para cada circuito utilizado, para concluir con lo que hemos aprendido en este laboratorio.
 
 
 %==============Marco teorico============
 \section*{Marco teórico}
-\begin{itemize}
-  \item \textbf{La Corriente eléctrica,} expresada como un flijo de partículas, se escribe:
+
+  \textbf{La Corriente eléctrica,} expresada como un flujo de partículas, se escribe:
   \begin{align*}
     I = \int_{A} J\cdot  dS
   \end{align*}
   donde: \\
-    $J = \sum_{i} n_i \, q_i \langle v_i\rangle$ es el \textbf{vector densidad de corriente}, la cual expresada
+    $J = \sum_{i} n_i \, q_i \langle v_i\rangle$ es el \textbf{vector densidad de corriente}, la cual expresa
     la contribución de los eventuales varios portadores de carga participantes en el proceso de condución eléctrica,
     dependiendo de la clase de material de que se trate. En la conducción metálica, los portadores son electrones solamente, entonces,
     \begin{align*}
       J = n_i \, e\mu E
     \end{align*} 
-\end{itemize}
+  donde $n, e, \mu$ expresan la concentración (número/volumen), la carga y la movilidad de los electrones, respectivamente,
+  cuando hay aplicado un campo eléctrico \textbf{E}. Definimos $\sigma = n_i \, e\mu$ como la conductividad del material conductor en estudio y 
+  $\rho = \frac{1}{\sigma}$ su resistividad. \\
+
+  Para un trozo de conductor cilíndrico, de área transversal $A$ y longitud $l$, su resistencia eléctrica $R$ queda expresada
+  por: 
+  \begin{align*}
+    P = I^2 \, R = V \, I = \frac{V^2}{R}
+  \end{align*} 
+  Esta relación expresa la rapidez con que se fectuá la transformación o potencia desarrollada. \\
+  
+  La teoría de conducción eléctrica en semiconductores, considera dos clases de portadores de carga, electrones
+  con carga $(-e)$ y huecos con carga $(+e)$. Ambos tipos tienen igual concentración cuando el semiconductor está en estado
+  puro (intrínseco). Por métodos físico-químicos se pueden incorporar átomos de otros elementos ("impurezas") que permiten
+  hacer que una u otra de las concentraciones de portadores predomine. Si predominan los portadores de carga $(-)$ se habrá 
+  obtenido un semiconductor tipo $n$ y de tipo $p$, llamada unión $p - n$. Las propiedades de una unión $p-n$ se verán reflejadas en la curva característica
+  I vs V de los diodos.
+
 
 
 
@@ -188,22 +208,42 @@ en la escala de 40 (mA) (DCA). Luego, tratamos de ubicar el punto de encendido d
 \end{table}
 
 
-
-
-\begin{figure}
+\begin{table}
   \centering
-  \includegraphics[width=12cm, height=8cm]{img/Figure_1.png}
-\end{figure}
+  \begin{tabular}{|c|c|c|c|c|} \hline
+    dato    &   $V^{+}$ [v]  &    $I^{+}$[A]  &   $V^{-}$ [v]  &    $I^{-}$ [A]  \\ \hline
+    1&0.00& 0.00&     -0.93	&0.00\\ \hline
+    2&1.43& 0.00&     -2.17	&0.00\\ \hline
+    3&1.80& 0.00&     -3.42	&0.00\\ \hline
+    4&2.40& 0.01&     -4.42	&0.00\\ \hline
+    5&2.56& 0.01&     -5.62	&0.00\\ \hline
+    6&2.65& 0.02&     -7.46	&0.00\\ \hline
+    7&2.80& 0.02&     -8.84	&0.00\\ \hline
+    8&2.95& 0.02&     -10.21	&0.00\\ \hline
+    9&3.01& 0.03&     -11.00	&0.00\\ \hline
+    10&3.35& 0.04&     -12.22	&0.00\\ \hline
+    
+    
+  \end{tabular}
+  \caption{\label{tab: emisor-luz} Diodo emisor de luz.}
+\end{table}
 
 \begin{figure}
   \centering
   \includegraphics[width=12cm, height=8cm]{img/Figure_2.png}
+  \caption{\label{fig: fig-conductor}Gráfico de conductor metálico.} 
 \end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=12cm, height=8cm]{img/Figure_3.png}
+  \includegraphics[width=12cm, height=8cm]{img/Figure_1.png}
+  \caption{\label{fig: fig-ampolleta}Gráfico ampolleta de linterna.} 
 \end{figure}
+
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=12cm, height=8cm]{img/Figure_3.png}
+% \end{figure}
 
 %============Conclusión========================================================
 \section*{Conclusión}
