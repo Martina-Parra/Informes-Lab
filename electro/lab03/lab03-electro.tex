@@ -19,36 +19,72 @@
 {\endminipage\par\medskip}
 
 
-\title{Electromagnetismo} 
-\author{Noemí de la Peña, Benjamín Opazo, Martina Contreras \\ \\
-\textit{ Departamento de Física, Universidad de Concepción, Concepción, Chile. }}
-\date{} 
 
+%==================================================================================
+\begin{document}
+\begin{titlepage}
+      \begin{center}     
+              
+            \includegraphics[width=0.2\textwidth]{img/escudo_udec.png}                       %Para poner logo udec   %{nombre carpeta\nombreimagen}
+            
+            
+            
+            \vspace{1cm}
+            \textsc{{\LARGE Universidad de Concepción}}
+            
+            \vspace{1cm}
+            {\scshape\Large Facultad de ciencias fisícas y matemáticas \par}
+            \vspace{2cm}
+            {\scshape\Huge Laboratorio 3 \par}
+            \vspace{2cm}
+            {\itshape\Large Proyecto laboratorio termodinámica \par}
+            \vfill
+            {\Large Autores: \par}
+            {\Large Martina Contreras, Noemí De La Peña, Benjamín Opazo. \par}
+            \vfill
+            \vfill
+            {\Large Profesor: \par}
+            {\Large Juan Pablo Staforelli \par}
+            \vfill
+            \vfill
+            {\Large Carrera: \par}
+            {\Large Ciencias fisícas \par}
+            \vfill
+            \vfill
+            {\Large Ayudante: \par}
+            {\Large Fernanda Paz Vera \par}
+            \vfill
+            {\Large Noviembre 2022 \par}
+      \end{center}
+\end{titlepage}            
+ 
 
+\tableofcontents
+\newpage
 
 
 
 %==================================================================================
-\begin{document}
-\maketitle 
+
+
 
 \begin{abstract}
-  En este laboratorio se llevaron a cabo 4 experimento relacionados con los circuitos eléctricos, donde se hizo varear el voltaje de entrada para estudiar la variación de la intensidad de corriente en cada circuito.
+  En este laboratorio se llevaron a cabo 4 experimentos relacionados con los circuitos eléctricos, donde se hizo variar el voltaje de entrada para estudiar la variación de la intensidad de corriente en cada circuito.
 Los circuitos utilizados fueron: Conductor metálico, Filamento de ampolleta de linterna, Diodo semiconductor común y Diodo emisor de luz (DEL o LED).
-Donde se concluye que la cantidad de intensidad de corriente soportada por cada circuito depende de los materiales que componen.
+Donde se concluye que cada material posee distintas propiedades, las cuales son: Potencia disipada, Conductividad o Resistividad y libre flujo de corriente.
 \end{abstract}
 
 
 
 %========Introducción=============
-\section*{Introdución}
-Los primeros pasos para la creación de circuitos eléctricos fueron dada por el químico Alessandro Volta y la creación de la primera pila moderna. Ese fue el punto de partida básico para la   utilización práctica de la energía eléctrica pasando a través de circuitos para cumplir diferentes finalidades.
-Más tarde, hacia 1826, sería Georg Simon Ohm quien sentará las bases del estudio de la circulación de las cargas eléctricas en el interior de materias conductoras y formula la ley que relaciona las tres magnitudes más importantes: voltaje, intensidad y resistencia.
+\section{Introdución}
+Los primeros pasos para la creación de circuitos eléctricos fueron dados por el químico Alessandro Volta y la creación de la primera pila moderna. Ese fue el punto de partida básico para la   utilización práctica de la energía eléctrica, pasando a través de circuitos para cumplir diferentes finalidades.
+Más tarde, hacia 1826, sería Georg Simon Ohm quien sentara las bases del estudio de la circulación de las cargas eléctricas en el interior de materias conductoras y formula la ley que relaciona las tres magnitudes más importantes: voltaje, intensidad y resistencia.
 En este informe, primero definiremos conceptos claves para entender que es un circuito, tales como: Voltaje, Intensidad y resistencia. Luego presentaremos los materiales y procedimientos utilizados y un análisis para cada circuito utilizado, para concluir con lo que hemos aprendido en este laboratorio.
 
 
 %==============Marco teorico============
-\section*{Marco teórico}
+\section{Marco teórico}
 
   \textbf{La Corriente eléctrica,} expresada como un flujo de partículas, se escribe:
   \begin{align*}
@@ -74,19 +110,22 @@ En este informe, primero definiremos conceptos claves para entender que es un ci
   
   La teoría de conducción eléctrica en semiconductores, considera dos clases de portadores de carga, electrones
   con carga $(-e)$ y huecos con carga $(+e)$. Ambos tipos tienen igual concentración cuando el semiconductor está en estado
-  puro (intrínseco). Por métodos físico-químicos se pueden incorporar átomos de otros elementos ("impurezas") que permiten
+  puro (intrínseco). Por métodos físico-químicos se pueden incorporar átomos de otros elementos ('impurezas') que permiten
   hacer que una u otra de las concentraciones de portadores predomine. Si predominan los portadores de carga $(-)$ se habrá 
   obtenido un semiconductor tipo $n$ y de tipo $p$, llamada unión $p - n$. Las propiedades de una unión $p-n$ se verán reflejadas en la curva característica
   I vs V de los diodos.
 
+  \begin{itemize}
+    \item \textbf{Voltaje\cite{voltaje}: } El voltaje es la diferencia de potencial eléctrico entre dos puntos de un circuito eléctrico o electrónico, expresado en voltios. 
+    Mide la energía potencial de un campo eléctrico para provocar una corriente eléctrica en un conductor eléctrico.
+  \end{itemize}
 
 
 
 
 %=========Materiales===============
-\section*{Materiales}
+\section{Materiales}
 
-\begin{multicols*}{2}
   \begin{itemize}
     \item Conductor metálico (fino alambre de metal).
     \item Filamento de ampolleta de linterna.
@@ -96,50 +135,47 @@ En este informe, primero definiremos conceptos claves para entender que es un ci
     \item Dos multímetros digitales.
     \item Siete cables de conexión.
   \end{itemize}
-\end{multicols*}
-%================Procedimiento=================================
 
-1.- Ubicamos los selectores de M1 y M2 en 40(DCV) y 2 (DCA), respectivamente. Ahora, conectamos M1, y M2.
+%================Procedimiento=================================
+\section{Procedimiento}
+\begin{enumerate}
+
+  \item  Ubicamos los selectores de M1 y M2 en 40(DCV) y 2 (DCA), respectivamente. Ahora, conectamos M1, y M2.
 Instalamos como elemento X el \textbf{conductor metálico}, conectándolo entre P y Q. La corriente máxima que 
 se hará circular será de 0.50 A. 
 Luego, hacemos 10 medidas en el rango (0.00 - 0.50)(A) para cada polaridad. Una vez que tomamos los datos, desconectamos
 el terminal \textbf{(+)} de la \textbf{FPE} y accionamos el control para volver a $0 V$ en la fuente. \\
 
 
-2.- Cambiamos el elemento X, instalando ahora la \textbf{ampolleta de la linterna.} Volvemos a conectar el terminal $(+)$ de la FPE. 
+\item Cambiamos el elemento X, instalando ahora la \textbf{ampolleta de la linterna.} Volvemos a conectar el terminal $(+)$ de la FPE. 
 Para no dañar su filamento, conviene seleccionar un rango apropiado de corrientes. Se nos recomienda utilizar los
-siguientes valoresen la escala de $400 mA$ (DCA) de M2: 20; 40; 60; 80; 100; 120; 160; 180; 200. Mantenemos M1 en 
+siguientes valores en la escala de $400 mA$ (DCA) de M2: 20; 40; 60; 80; 100; 120; 160; 180; 200. Mantenemos M1 en 
 su escala. Aquí también efectuamos la inversición de polaridad, para cada valor de corriente. Denuevo, al finalizar la serie,
 desconectamos el terminal (+) y retornamos a $0 (V)$ la FPE.
 
-3.- A continuación, cambiamos el elemento X, instalando el diodo \textbf{semiconductor común.} Reinstalamos la conexión
+\item A continuación, cambiamos el elemento X, instalando el diodo \textbf{semiconductor común.} Reinstalamos la conexión
 del terminal $(+)$ de la FPE. Ahora, trabajaremos separadamente las polaridades directa e inversa. Con polarizacion directa,
 ajustamos los siguientes valores de corriente en la escala de 2 A (DCA): 0.050; 0.080; 0.100; 0.120; 0.130;
 0.140; 0.160; 0.200; 0.250; 0.300; 0.350; 0.400. Iniciamos el control de voltaje de manera cuidadosa, desde 0.00 V hasta
 0.60 V. De ahí en adelante extremamos las precauciones ajustando sólo con el control fino. Tratamos de definir el llamado
-voltaje de arranque del diodo, donde se hace bruscamente el conductor. Luego, cambiamos a polaridad inversa
+voltaje de arranque del diodo, donde se hace bruscamente conductor. Luego, cambiamos a polaridad inversa
 y exploramos hasta donde sea posible; valores altos de voltajes son permitidos, en tanto la corriente se mantenga baja. Efectuamos 10 
 medidas para cada polaridad. Finalmente, desconectamos el terminal (+) y retornamos a 0 (V) la salida de la fuente.
 
 
-4.- Instalamos el diodo emisor de luz. Restauramos la conexión (+) de la fuente y comenzamos a incrementar el voltaje
+\item  Instalamos el diodo emisor de luz. Restauramos la conexión (+) de la fuente y comenzamos a incrementar el voltaje
 hasta 1.50 V en una primera etapa. Luego, prestamos más atención a los valores de corriente ajustando con el control 
 fino de voltaje 10 pares de valores $I^{+}$, $V^{+}$ con corrientes comprendidas en el rango: 0.20 (mA), hasta 5.00 (mA)
 en la escala de 40 (mA) (DCA). Luego, tratamos de ubicar el punto de encendido del LED, visualmente y anotamos dicho valor; efectuamos
-10 medidas $I^{+}$, $V^{+}$ para la polaridad. Además, realizamos mediciones con polaridad inversa con el LED.
+10 medidas $I^{+}$, $V^{+}$ para la polaridad. Además, realizamos mediciones con polaridad inversa con el LED. \\
 
+\includegraphics[width=8cm, height=5cm]{img/circuito.jpg}
+\end{enumerate}
 
-
-
-
-
-
-
-
-
-
-%============Análisis==========================================================
-\section*{Análisis}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=12cm, height=8cm]{img/circuito.jpg}
+% \end{figure}
 
 \begin{table}
   \centering
@@ -240,23 +276,55 @@ en la escala de 40 (mA) (DCA). Luego, tratamos de ubicar el punto de encendido d
   \caption{\label{fig: fig-ampolleta}Gráfico ampolleta de linterna.} 
 \end{figure}
 
-% \begin{figure}
-%   \centering
-%   \includegraphics[width=12cm, height=8cm]{img/Figure_3.png}
-% \end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm, height=8cm]{img/Figure_3.png}
+  \caption{\label{fig: diodo-comun}Gráfico diodo semicondor común $(+)$.} 
+\end{figure}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=12cm, height=8cm]{img/Figure_4.png}
+  \caption{\label{fig: emisor-luz}Gráfico diodo emisor de luz $(+)$.} 
+\end{figure}
+
+
+
+
+
+
+
+
+%============Análisis==========================================================
+\section{Análisis}
+Vemos que para el primer gráfico \ref{fig: fig-conductor} de I v/s V, donde el circuito está conectado a un conductor metálico, tiene un comportamiento lineal, y para el lado de la corriente directa e inversa el gráfico de los datos es casi idéntico, por lo que I y V están relacionados de manera lineal por la ley de Ohm %aqui hacer alguna referencia a una ecuacion que corresponda a la ley de Ohm  
+,además de que los conductores metálicos tienen una alta conductividad eléctrica y por ende poca resistividad, por lo que la potencia que disipan en forma de calor es mínima.\\
+
+Para el circuito conectado a la ampolleta de linterna, notamos que su gráfico \ref{tab: ampolleta} I vs V tiene un comportamiento distinto al del conductor metálico se nota que hay una relación entre la corriente y el voltaje, pero ya no es lineal, por lo que la relación entre las dos no puede ser explicada por la ley de Ohm, por ende, la ampolleta de linterna tiene una conductividad eléctrica menor que el conductor metálico y por ende una mayor resistencia, de lo cual concluimos que hay una mayor disipación de calor, al transformar la corriente que circula en energía eléctrica, la cual es la que produce que en algún momento la ampolleta de linterna se prenda y aumente de a poco su brillo hasta llegar a un límite.\\
+
+Para el circuito conectado al diodo semiconductor común vemos que, al igual que el gráfico de la ampolleta de linterna, el gráfico  \ref{fig: diodo-comun} de I v/s V tiene un comportamiento lineal hasta un cierto punto de voltaje y luego la corriente cambia rápidamente, donde vemos que, en el caso donde la corriente es directa, a medida que aumenta el voltaje la corriente casi no cambia de manera visible en 0.00, por un largo intervalo de voltaje, no obstante, cambiaba de manera más pequeña que eso, ya que el instrumento que usabamos no tenía la sensibilidad para poder detectar esos pequeños cambios, hasta que para un cierto valor de voltaje que en nuestro caso fue de 0.73 V empieza a cambiar la corriente de manera notoria por lo que entre 0.73 V y 0.76 V es el voltaje de arranque, y que además, a medida que aumenta más la corriente el voltaje se mantiene constante con una valor de 0.76, también vemos que cuando la corriente es inversa el diodo semiconductor común se convierte en un aislante ya que la corriente se matiene en 0.00 sin importar el valor del voltaje, y ya que se convierte en un aislante, su resistividad eléctrica es mayor y por ende su resistencia también.\\
+
+Para el circuito conectado al diodo emisor de luz vemos que, al igual que el gráfico del diodo semiconductor común este \ref{fig: emisor-luz} tiene un comportamiento lineal al inicio, cuando la corriente es directa, porque al principio no pasa una cantidad de corriente notoria, y el instrumento no puede detectarla, pero luego la corriente que pasa aumenta y sigue aumentando, a diferencia del diodo semiconductor común, este no tiene un comportamiento donde el voltaje no aumenta o se mantiene casi constante, sino que este sigue aumentando, es decir se vuelve en un conductor, pero como este transforma energía eléctrica en luz, para que se pueda prender el diodo y llegue a un límite, disipa potencia en forma de calor, y hace que el voltaje tammbién cambie, como el conductor metálico. En el caso donde la corriente es inversa podemos ver que al igual que el diodo semiconductor común, el diodo emisor de luz se transforma en un aislante, ya que no permite el flujo de corriente, y por ende nunca se ilumina, por lo que su resistividad eléctrica es mayor, y por consecuencia su resistencia también. 
+
+
 
 %============Conclusión========================================================
-\section*{Conclusión}
-
+\section{Conclusión}
+De los 4 experimentos realizados, se logra concluir que:
+Primero, de que cuando no existe una relación lineal entre $V$ (voltaje) y $I$ (intensidad), el circuito posee una conductividad menor. Además, que a mayor conductividad tenga un circuito, menor será el potencial que disipa en forma de calor. 
+También  logramos percibir que los circuitos compuestos por diodo poseen la característica de volverse aislantes, cuando son conectados a un voltaje de cargas negativas.
+Por otro lado, los diodos en corriente directa al sobrepasar el voltaje de arranque se vuelven en un buen conductor, notar que esto se cumple
+solamente para el \textbf{diodo semiconductor común.} Además, para el caso diodo emisor de luz y ampolleta de linterna, estos transforman la energía eléctrica en energía lumínica, y por consecuencia,
+disipaban potencia en forma de calor.
 
 \begin{thebibliography}{5}
-  \bibitem{Ley-de-Lorentz}  Ley de Lorentz. (s. f.). Fisicalab. Recuperado 7 de octubre de 2022, 
-  de \url{https://www.fisicalab.com/apartado/ley-de-lorentz}
-  \bibitem{Ley-de-Ampere}Ley de Ampère. (s. f.). Fisicalab. Recuperado 8 de octubre de 2022, 
-  de \url{https://www.fisicalab.com/apartado/ley-de-ampere}
-  \bibitem{Ley-de-Faraday} \textbf{D. Halliday; R. Resnick; K. S. Kane.} \textit{Física Vol. 2.} (Cap.36), Compañía Editorial Continental, S.A. de C.V. 3º Edición, 1994
-  \bibitem{Corrientes-de-Foucault} Eddy Current, que es y como detectarla. - Frigochiller. (2020, 31 marzo). Frigochiller - Mantenimiento y reparacion de Chillers. Recuperado 8 de octubre de 2022, 
-  de \url{https://frigochiller.com/corriente-de-foucault/}
+  \bibitem{voltaje} Medidas de voltaje: Guía. (s. f.). NI. Recuperado 4 de noviembre de 2022, 
+  de \url{https://www.ni.com/es-cl/support/documentation/supplemental/21/how-to-measure-voltage.html}
+  \bibitem{Noe}Corriente eléctrica y materiales conductores. (2014, 5 septiembre). RedUSERS. 
+  \url{https://www.redusers.com/noticias/corriente-electrica-y-materiales-conductores/}
+  \bibitem{libro} \textbf{D. Halliday; R. Resnick; K. S. Kane.} \textit{Física Vol. 2.} (Cap.32), Compañía Editorial Continental, S.A. de C.V. 3º Edición, 1994
+  \bibitem{benja} Circuito ElÃ©ctrico: Historia. (s. f.). Recuperado 4 de noviembre de 2022,
+   de \url{https://www.profesorenlinea.cl/mediosocial/Circuito_ElectricoHistoria.htm}
 \end{thebibliography}
 
 
