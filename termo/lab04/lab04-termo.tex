@@ -89,6 +89,7 @@ Si se agrega que la densidad del fluido en estudio es homogénea (es la misma en
 medida desde dicha superficie en dirección de $\vec{g}$, la presión allí, $P$, es dada por la ley de la hidroestática.
 \begin{align}
       P=P_0 +  \rho gh.
+      \label{eq: presion-h}
 \end{align}
 
 Dados dos fluidos inmiscibles estáticos, pueden ordenarse de forma tal que puede determinarse la densidad de uno dada la del otro, por ejemplo, teniendo agua, de densidad $\rho_ag = 1000[kg/m³]$, y aceite con densidad $\rho_ac$ desconocida.
@@ -140,7 +141,63 @@ Dados dos fluidos inmiscibles estáticos, pueden ordenarse de forma tal que pued
 \end{itemize}
 
 \section{Análisis}
+\begin{itemize}
+      \item Usando la ley de la Hidroestática, calcular la presión hidroestática en el nivel de referencia $h_{0}$ y obtener la expresión que relaciona esta presión con la densidad del aceite.\\ 
+      R: Primero nuestros datos son:\\
+      P es la presión hidroestática.\\
+      $P_{0}$ es la presion atmosférica $1.013 \times 10^5 N/m^2$.\\
+      $\rho$ es la densidad del líquido, en nuestro caso la del agua $1000 kg/m^3$.\\
+      $h$ es la altura, que es medida desde donde empieza el líquido hasta un punto B, la cual es $0.13m$\\
+      $g$ es la aceleración de gravedad $9.8 m/s^2$.\\
+      
+      Utilizando la ley de la Hidroestática \ref{eq: presion-h} y reemplazando nuestros datos, tenemos que:
 
+       \begin{equation*}
+       P = 1.013 \times 10^5\dfrac{N}{m^2} + 1000\dfrac{kg}{m^3} \times 0.13m \times 9.8\dfrac{m}{s^2}
+       \end{equation*}
+       Y así obtenemos que la presión hidroestática es: 
+       \begin{equation*}
+       P = 102574 \dfrac{N}{m^2}  
+       \end{equation*}
+      
+      \item Calcular la densidad del aceite.\\
+      R: Si tomamos dos puntos a una misma altura sus presiones serán las mismas, por lo que tenemos una igualdad de presiones, tal que:
+      \begin{equation*}
+      P_{B} = P_{A}
+      \end{equation*}            
+      ,donde A y B son puntos del tubo en U, donde B está en el agua y A en el aceite, así tenemos que
+      \begin{equation}\label{eq2}
+      P_{0} +  \rho_{ag} h_{ag} g = P_{0} +  \rho_{ac} h_{ac} g  
+      \end{equation}
+      Donde nuestros datos son:\\
+      $P_{0}$ es la presion atmosférica $1.013 \times 10^5 N/m^2$.\\
+      $\rho_{ag}$ es la densidad del agua $1000 kg/m^3$.\\
+      $\rho_{ac}$ es la densidad del aceite, la cual es la incógnita.\\
+      $h_ag$ es la altura, que es medida desde donde empieza el agua hasta un punto B, la cual es $0.13m$\\
+      $h_{ac}$ es la altura, que es medida desde donde empieza el aceite hasta un punto A, la cual es $0.14m$.\\
+      $g$ es la aceleración de gravedad $9.8 m/s^2$.\\
+     
+      Reemplazando nuestros datos en \ref{eq2}, tenemos que
+      \begin{equation}\label{eq3}
+      1.013 \times 10^5\dfrac{N}{m^2} + 1000\dfrac{kg}{m^3} \times 0.13m \times 9.8\dfrac{m}{s^2} = 1.013 \times 10^5\dfrac{N}{m^2} +  \rho_{ac} \times 0.14m \times 9.8\dfrac{m}{s^2}  
+      \end{equation}
+      Despejando $\rho_{ac}$ de \ref{eq3}, tenemos que 
+      \begin{equation*}
+      \rho_{ac} = 928.57\dfrac{kg}{m^3}
+      \end{equation*}
+      
+      \item Comparar el resultado obtenido con valores de referencia encontrados en la literatura por medio del error porcentual $\epsilon_{r}$,
+      \begin{equation}\label{eq4}
+      \epsilon_{r} = \left|\dfrac{\rho_{ac,r} - \rho_{ac,ex}}{\rho_{ac,r}} \right| \times 100 \% ,
+      \end{equation}
+      donde $\rho_{ac,r}$ es la densidad del aceite de referencia y $\rho_{ac,ex}$ es el valor calculado en este experimento.
+      R: Tomaremos a $\rho_{ac,r}$  igual a $920 kg/m^3$, el cual fue obtenido de \ref{eq: presion-h}, ahora reemplazanpo nuestros valores en \ref{eq4}, tenemos que:
+      \begin{equation*}
+      \epsilon_{r} = \left|\dfrac{ 920 kg/m^3 - 928.57 kg/m^3}{920 kg/m^3} \right| \times 100 \%
+      \end{equation*}
+       Así obtenemos que $\epsilon_{r} = 0.93 \%$
+     
+     \end{itemize}
 \section{Conclusión}
 
 Al finalizar este informe, podemos decir que los objetivos se cumplieron. Calculamos la presión hidrostática que relaciona la densidad del aceite y con esta forma calcular el valor de la densidad del aceite.
