@@ -1,0 +1,355 @@
+\documentclass[]{article}
+\usepackage[spanish]{babel} 
+\usepackage{amsmath} 
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{enumitem} 
+\usepackage{graphicx}   
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2cm,right=2.5cm]{geometry} 
+\usepackage[]{subfigure}
+\usepackage[]{multicol}
+\setlength{\columnsep}{1cm}
+\usepackage[]{hyperref}
+%\usepackage[maxbibnames=99, sorting=none]{biblatex}
+\usepackage{amssymb}
+\usepackage[]{txfonts}
+
+%\usepackage[authoryear]{natbib}
+\newenvironment{Figura}
+{\par\medskip\noindent\minipage{\linewidth}}
+{\endminipage\par\medskip}
+
+
+
+%==================================================================================
+\begin{document}
+\begin{titlepage}
+      \begin{center}     
+              
+            \includegraphics[width=0.2\textwidth]{lab03/img/escudo_udec.png}                       %Para poner logo udec   %{nombre carpeta\nombreimagen}
+            
+            
+            
+            \vspace{1cm}
+            \textsc{{\LARGE Universidad de Concepción}}
+            
+            \vspace{1cm}
+            {\scshape\Large Facultad de ciencias fisícas y matemáticas \par}
+            \vspace{2cm}
+            {\scshape\Huge Laboratorio 4 \par}
+            \vspace{2cm}
+            {\itshape\Large Proyecto laboratorio termodinámica \par}
+            \vfill
+            {\Large Autores: \par}
+            {\Large Martina Contreras, Noemí De La Peña, Benjamín Opazo. \par}
+            \vfill
+            \vfill
+            {\Large Profesor: \par}
+            {\Large Juan Pablo Staforelli \par}
+            \vfill
+            \vfill
+            {\Large Carrera: \par}
+            {\Large Ciencias fisícas \par}
+            \vfill
+            \vfill
+            {\Large Ayudante: \par}
+            {\Large Fernanda Paz Vera \par}
+            \vfill
+            {\Large Noviembre 2022 \par}
+      \end{center}
+\end{titlepage}            
+ 
+
+\tableofcontents
+\newpage
+
+
+
+%==================================================================================
+
+
+
+% \begin{abstract}
+
+% \end{abstract}
+
+
+
+%========Introducción=============
+\section{Introdución}
+
+\begin{itemize}
+      \item Conocer el funcionamiento de un osciloscopio.
+      \item Concocer el funcionamiento de un generador de señales alternas.
+      \item Aprender a medir voltaje y tiempo con osciloscopio.
+      \item Comprobar experimentalmente las ecuaciones de carga y descarga de condensadores. \textit{Circuito RL}
+      \item Comprobar experimentalmente las ecuaciones de conexión y desconexión de bobinas de autoinducción. \textit{Circuito RC}
+      \item Obtener oscilaciones de carga y medir la mfrecuencia propia del sistema oscilante. \textit{Circuito RLC}
+\end{itemize}
+
+
+
+%==============Marco teorico============
+\section{Marco teórico}
+\begin{enumerate}
+      \item Características de ondas de voltaje y corriente alternas sinusoidales. \\
+      Conmsideremos las siguientes definiciones: 
+      \begin{itemize}
+            \item $v(t) = V_m sin(wt)$: valor instantáneo de voltaje alterno sinusoidal,
+            \item $i(t) = I_m sin(wt)$: valor instantáneo de corriente alterna sinusoidal,
+            \item $V_m$: amplitud o valor máximo de la onda de voltaje,
+            \item $I_m$: amplitud o valor máximo de la onda de corriente,
+            \item $w = 2 \pi f$,
+            \item $f = \frac{1}{T}$: frecuencia de oscilación,
+            \item $T$: período de la alternancia.
+      \end{itemize}
+      Para comparar valores de voltaje y corriente continuos con los correspondientes alternos se definen los llamados valores efectivos.
+      El valor efectivo de un voltaje o una corriente alterna, resulta de igualar la energía eléctrica de corriente continua con la energía eléctrica de corriente alterna, 
+      cuando ambas se transforman en calor Q en una misma resistencia R. Si la comparación se efectúa durante un lapso de tiempo igual a un periodo T, se tendrá la igualdad:
+      \begin{align*}
+            Q_{cc} (R,T) = Q_{cA}(R,T)
+      \end{align*}
+      Cantidades que se pueden expresar en términos del voltaje aplicado sobre R o de la corriente que circula por R.
+       Así, para el primer caso, se tiene:
+      \begin{align*}
+            \frac{V^2}{R}T = \int_0 ^T \frac{v^2(t)}{R}dt \Rightarrow V = \left(\frac{1}{T} \int_0 ^T V_m ^2 sin^2 (wt) dt \right)^{1/2}
+      \end{align*}
+      de donde $V = \frac{1}{2} \sqrt{2}V_m$: voltaje efectivo y para la corriente:
+      \begin{align*}
+            I^2 RT = \int_0 ^T i^2 (t)R dt \Rightarrow I = \left(\frac{1}{T} \int_0 ^T I_m ^2 sin^2 (wt) dt \right)^{1/2}
+      \end{align*}
+      De donde $I = \frac{1}{2} \sqrt{2}I_m$: corriente efectiva. \\
+      Los instrumentos medidores de voltaje y corriente alternos están calibrados para medir valores efectivos.
+      
+      \item Circuitos RC, RL, RLC en condición transitoria.
+      \begin{enumerate}
+            \item \textbf{Circuito RC} \\
+             Para el circuito de la figura \ref{fig: circuito-RC} y a partir del instante $(t = 0)$ de conexión de S en 1, estando C
+             completamente cargado $(q = 0)$, la ecuación diferencial y su solución para la carga $q(t)$ se escriben
+             \begin{align*}
+                  \frac{dq}{dt} + \frac{q}{RC} = \frac{V_0}{R} \Rightarrow q(t) = V_0 C(1-e^{-\frac{t}{RC}})
+             \end{align*}
+            de donde resultan los voltajes $v_C(t)$ en el condensador y $v_R (t)$ en el resistor, siguientes:
+            \begin{align*}
+                  v_C(t) = \frac{q(t)}{C} = V_0 (1-e^{-\frac{t}{RC}})
+            \end{align*}
+            \begin{align*}
+                  v_R(t) = \frac{i(t)}{R} = R \frac{dq}{dt} = V_0 (1-e^{-\frac{t}{RC}})
+            \end{align*}
+            Cuando $C$ ha alcanzado el estado estacionario $(t \rightarrow \infty )$, su carga ha llegado al valor
+            $Q = V_0 C$. Se cambia ahora $S$ a la posición 2 para efectuar la descarga de $C$. Al quedar excluida la fuente
+            $V_0$, lam ecuación diferencial y su solución, resultan ser:
+            \begin{align*}
+                  \frac{dq}{dt} + \frac{q}{RC} = 0 \Rightarrow q(t) = V_0 C(1-e^{-\frac{t}{RC}})
+             \end{align*}
+             entonces:
+             \begin{align*}
+                  v_C(t) =  V_0 e^{-\frac{t}{RC}}
+            \end{align*}
+            \begin{align*}
+                  v_R(t) = - V_0 e^{-\frac{t}{RC}}
+            \end{align*}
+            
+            \item \textbf{Circuito RL}\\
+            En el circuito de la figura \ref{fig: circuito-RL}, al cerrar $S$ en $1$ se obtiene la ecuación diferencial para la conexión de $L$.
+            La ecuación y su solución resultan: 
+            \begin{align*}
+                  \frac{di}{dt} + \frac{R}{L}i = \frac{V_0}{L} \Rightarrow i(t) = \frac{V_0}{R}(1-e^{\frac{-R}{L}t})
+            \end{align*}
+            desde donde:
+
+            \begin{align*}
+                  v_L(t) = L \frac{di}{dt} = V_0 e^{-\frac{R}{L}t}
+            \end{align*}
+            \begin{align*}
+                  v_R(t) = i(t)R =  V_0 (1 - e^{-\frac{R}{L}t})
+            \end{align*}
+            
+            Al cambiar el interruptor $S$ de $1$ a $2$, se inicia la etapa de desconexión de $L$, con ecuación diferencial y solución dadas por:
+            \begin{align*}
+                  \frac{di}{dt} + \frac{Ri}{L} = 0 \Rightarrow i(t) = \frac{V_0}{R} e^{\frac{R}{L}t} 
+            \end{align*}
+            entonces:
+            \begin{align*}
+                  v_L(t) = L \frac{di}{dt} = - V_0 e^{-\frac{R}{L}t}
+            \end{align*}
+            \begin{align*}
+                  v_R(t) = i(t)R =  V_0 e^{-\frac{R}{L}t}
+            \end{align*}
+
+            \item \textbf{Circuito RLC}
+            En el circuito de la figura \ref{fig: circuito-RLC} $(a)$, el condensador $C$ se encuentra cargado con carga $Q$ y la energía total
+            $U_C = \frac{Q^2}{2C}$. Al cerrar el interruptor $S$. el condensador iniciará la descarga y con todo ello un proceso de 
+            intercamcio de energía entre $C$ y $L$. La energía total distribuida en todo momento en $L$ y en $C$, irá decreciendo debido a 
+            las pérdidas por efecto de calor disipado en $R$, todo lo cual se expresa por la ecuación:
+            \begin{align*}
+                  \frac{d}{dt}\left(\frac{q^2}{2C} + \frac{Li^2}{2}\right) = - i^2 R
+            \end{align*} 
+
+            que resulta en la ecuación diferencial:
+            \begin{align*}
+                  L \frac{d^2}{dt^2}q + R\frac{dq}{dt} + \frac{q}{C} = 0
+            \end{align*}
+            y su solución oscilatoria:
+
+            \begin{align*}
+                  q(t) = Q^{-\frac{R}{2L}t}cos(w't + \phi),
+            \end{align*}
+            con
+
+            \begin{align*}
+                  w' = .\left(w^2 - \left(\frac{R}{2L}\right)^2 \right)^{1/2}
+            \end{align*}
+
+            y $w = \frac{1}{\sqrt{LC}}$, así el voltaje instantáneo en el condensador, $V_c (t)$, tiene la expresión:
+            \begin{align*}
+                  V_c(t) = \frac{q(t)}{C} = \frac{Q^{-\frac{R}{2L}t}cos(w't + \phi)}{C}
+            \end{align*}
+
+            que corresponde a una oscilación amortiguada exponencialmente.
+      \end{enumerate}
+
+\end{enumerate}
+
+\begin{figure}
+      \centering
+      \includegraphics[width=12cm, height=5cm]{imag/circuito-RC.jpeg}
+      \caption{\label{fig: circuito-RC} Circuito RC}
+\end{figure}
+
+\begin{figure}
+      \centering
+      \includegraphics[width=12cm, height=5cm]{imag/circuito-RL.jpeg}
+      \caption{\label{fig: circuito-RL} Circuito RL}
+\end{figure}
+
+\begin{figure}
+      \centering
+      \includegraphics[width=12cm, height=5cm]{imag/circuito-RLC.jpeg}
+      \caption{\label{fig: circuito-RLC} Circuito RLC}
+\end{figure}
+
+
+
+
+%=========Materiales===============
+\section{Materiales}
+\begin{itemize}
+      \item 1 osciloscopio con 2 puntas de prueba,
+      \item 1 generador de señal,
+      \item 1 caja de resistencias décadas,
+      \item 1 caja de condensadores décadas,
+      \item 1 bobina de 600 vueltas,
+      \item 1 transformador de $200/6 volt$,
+      \item 6 conexiones.
+\end{itemize}
+
+%   \begin{itemize}
+
+%   \end{itemize}
+
+%================Procedimiento=================================
+\section{Procedimiento Experimental}
+% \subsection*{Parte 1: Medidas de voltaje y tiempo con osciloscopio}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection*{Parte 2: Circuitos RC, RL, RLC, en estado transitorio.}
+\subsection*{\textbf{Circuito RC}}
+\begin{enumerate}
+      \item Procedemos a realizar el montaje del circuito experimental de la figura \ref{fig: circuito-RC} $(b)$, en el cual
+      $R$ se asigna desde la caja resistencias décadas, por ej. $1 K\Omega$; $C$ se asigna desde la caja de condensadores décadas
+      , por ej. $0.1 \mu F$ y $v_g$ corresponde a la señal de salida del generador, con forma rectangular y frecuencia apropiada, por
+      ej. $1 K Hz$.
+
+      \item Para observar $v_e(t)$ (voltaje sobre el condensador), se conecta la punta activada $CH1$ del osciloscopio al punto $c$, del circuito; se regulan los controles de base 
+      de tiempo y niveles de ganancia, hasta observar en forma nítida la gráfica $v_e(t) vs t$. Para efectos de comparar y observar relación causa-efecto se utiliza el segundo canal 
+      $(CH2)$ del osciloscopio conectado directamente a la salida del generador de señal y así tener a la vista el voltaje $v_g (t) vs t$ que se está aplicando al circuito.
+
+      \item Mediante un manejo eficiente de los controles de barrido del osciloscopio y frecuencia del generador de señal se puede observar el efecto y significado de la constante de tiempo $\tau_C = RC$. Una vez hechos 
+      los ajustes y optimizada la visualización, se hacen las medidas. 
+
+      \item Para observar $v_R(t)$ o voltaje en la resistencia, que en realidad es una muestra de cómo varía la corriente $i(t)$ en la carga y en la descarga del condensador ya que $v_R(t) = i(t) R$, todo lo que hay que hacer
+       es intercambiar las conexiones que van desde el circuito a la salida del generador de señal en $a$ y $b$, de esta manera, un extremo de $R$ quedará a tierra. Nos aseguramos que la punta activa de $CH2$ siga estando en la 
+       salida a del generador y la de $CH1$ en $c$.
+\end{enumerate}
+
+\subsection*{\textbf{Circuito RL.}}
+
+\begin{enumerate}
+      \item Armamos el circuito de la figura \ref{fig: circuito-RL} $(b,)$ donde del condensador $C$ del circuito anterior se debe reemplazar por una bobina de $600$ vueltas y autoinducción $L = 9 mH$.
+
+      \item Para efectos de control y buena visualización de $v_L(t)$ y $v_R(t)$, conviene ajustar $R$ en $300$ y usar frecuencia de $3 KHz$ en el generador de señal. La mejor visualización se logra reajustando
+      el control de frecuencia.
+      
+      \item En lo que sigue, se repiten los pasos $2$, $3$ y $4$ de la parte anterior, con la diferencia de que lo observado es ahora $v_L (t)$, en vez de $v_C (t)$ en $2$, así como la constante de tiempo en $3$ 
+      es ahora $\tau_L = L/R$.
+\end{enumerate}
+
+
+\subsection*{\textbf{Circuito RLC. Oscilaciones amortiguadas. Observación y medición.}}
+\begin{enumerate}
+      \item Se arma el circuito de la figura \ref{fig: circuito-RLC} $(b)$ con $R = 200\Omega$, $C = 0,01 \mu F$ y $L = 9 mH$ (bobina de $600$ vueltas). Utilizamos solamente $CH1$ conectada en $c$ para visualizar $v_C(t)$ donde se 
+      observarán las oscilaciones. 
+
+      % \item Proceder a cambiar los valores de $$R$ con fines de investigar su influencia en el decaimiento de la onda y en el número de oscilaciones (ondas) observadas, inclusive puede eliminarse por completo la resistencia de la caja de décadas.
+      
+      \item Medimos el período de las oscilaciones amortiguadas, $T'$, para obtener $w' = \frac{2 \pi}{T}$, esta  se comparará con el valor teórico:
+      
+      \begin{align*}
+            w' = \left(w^2 - \left(\frac{R}{2L}\right)^2\right)^{1/2}
+      \end{align*}
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+%============Análisis==========================================================
+\section{Análisis}
+
+
+
+
+%============Conclusión========================================================
+\section{Conclusión}
+
+
+\begin{thebibliography}{5}
+  \bibitem{voltaje} Medidas de voltaje: Guía. (s. f.). NI. Recuperado 4 de noviembre de 2022, 
+  de \url{https://www.ni.com/es-cl/support/documentation/supplemental/21/how-to-measure-voltage.html}
+  \bibitem{Noe}Corriente eléctrica y materiales conductores. (2014, 5 septiembre). RedUSERS. 
+  \url{https://www.redusers.com/noticias/corriente-electrica-y-materiales-conductores/}
+  \bibitem{libro} \textbf{D. Halliday; R. Resnick; K. S. Kane.} \textit{Física Vol. 2.} (Cap.32), Compañía Editorial Continental, S.A. de C.V. 3º Edición, 1994
+  \bibitem{benja} Circuito ElÃ©ctrico: Historia. (s. f.). Recuperado 4 de noviembre de 2022,
+   de \url{https://www.profesorenlinea.cl/mediosocial/Circuito_ElectricoHistoria.htm}
+\end{thebibliography}
+
+
+
+
+\end{document}
