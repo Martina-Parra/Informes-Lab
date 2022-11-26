@@ -323,6 +323,51 @@
 
 
 
+%================Resultados===================================
+Además para cada experimento hicimos los siguientes cálculos:\\
+1 subdivision son 0.2 divisiones.\\
+Amplitud del voltaje $(Am_v)$ = numero de diviones en el eje y (eje de voltaje).\\
+Amplitud del período $(Am_T)$ = numero de divisiones en el eje x (eje del tiempo).\\ 
+\begin{equation}\label{voltaje_max}
+V_{max} = Am_v \times Volt/div 
+\end{equation}
+
+\begin{equation}\label{voltaje_eff}
+V_{eff} = \dfrac{V_{max}}{\sqrt{2}}
+\end{equation}
+
+\begin{equation}\label{T_periodo}
+T = Am_T \times Time/div 
+\end{equation}
+
+\begin{equation}\label{frecuencia}
+f = \dfrac{1}{T}
+\end{equation}
+
+\begin{table}{h}
+	\begin{center}
+		\begin{tabular}{| c | c | c | c | c | c | c |}
+			Circuito & $Am_v$ & $Am_T$ & $V_{max}$ & $V_{eff}$ & $T$ & $f$ \\ \hline
+			RC & 0.8 div & 1.4 div & 4 Volt & 2.828 Volt & 2.8 $\times$ $10^{-3}$ seg & 357.14 Hz \\
+			RL & 0.8 div & 4.2 div & 4 Volt & 2.828 Volt & 4.2 $\times$ $10^{-4}$ seg & 2380.8 Hz  \\
+			RLC & 1.2 div & 4.2 div & 2.4 Volt & 1.69 Volt & 4.2 $\times$ $10^{-4}$ seg   & 2380.9 Hz   \\ \hline
+		\end{tabular}
+		\caption{Tabla de resultados, los cuales fueron calculados con los datos de la guía}
+		\label{Tabla}
+	\end{center}
+\end{table} 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -331,12 +376,25 @@
 
 %============Análisis==========================================================
 \section{Análisis}
+En general un osciloscopio muestra las señales de voltaje como ondas o representaciones visuales de la variación de voltaje vs el timepo, podemos ver que al hacer variar el voltaje, las señales mostradas en pantalla cambian sus características, como la amplitud y su período, en cambio, cuando variamos la frecuencia la señales mantienen su forma, pero cambian la cantidad de señales mostradas en pantalla.\\  
+ 
+En el primer experimento conectamos el osciloscopio a un circuito RC, donde en la pantalla del osciloscopio podemos ver el voltaje en función del tiempo con una forma senoidal, a medida que aumentamos la resistencia y la capacitancia la amplitud de lads ondas decrece, más especificamente decrece exponencialmente a medida que aumenta el valor de $RC$, este resultado se asemeja a la función de voltaje para un circuito RC.Al elegir una capacitancia, resistencia, voltaje y frecuencia fijos, obtenemos los resultados de la tabla \ref{Tabla} para el circuito RC.\\
+
+En el segundo experimento conectamos el osciloscopio a un circuito RL donde en la pantalla podemos ver que el voltaje vs tiempo tiene una forma de onda cuadrada, en la cual podemos ver que a medida que cambiamos el valor de la resitencia la forma de la señal aumenta o disminuye su amplitud, más especificamente la onda decae exponencialmente a medida que aumenta el valor de $R/L$.Donde para los valores entregados en la guía, los cuales son: autoinducción $L= 9mH$, $R = 300 \Omega$, y una frecuencia de $3 KHz$, obtenemos los resultados de la tabla \ref{Tabla} para el circuito RL.\\
+
+En el tercer experimento conectamos el osciloscopio a un circuito RLC, donde en la pantalla podemos ver que  el voltaje en función del tiempo tiene una forma de onda senoidal pero amortiguada, en donde la inductancia del circuito se mantiene constante a $9mH$, y la capacitancia al hacer la variar del valor dado de $200 \Omega$ la señal no cambia en nada, pero a medida que hacemos variar la resistencia, cuando aumnetamos la resistencia la onda decae más rápidamente, en cambio cuando nos acercamos al punto de la resistencia a $0 \Omega$, las señales mostradas se vuelven extrañas, es como una superposición de muchas ondas, y con los valores dados en la guía de resistencia, inductancia y capacitancia de $0.01 \mu F$, obtenemos los resultados de la tabla \ref{Tabla} para el circuito  RLC.\\
+
+Comparando los resultados de cada experimento podemos ver que el voltaje máximo de el circuito RC y RL es el mismo, es decir, la amplitud de las ondas es la misma, en cambio para el circuito RLC  es más pequeña que el de los otros dos,esto es debido a que como son ondas amortiguadas ...... , el voltaje efectivo más bajo es el del circuito RLC, por lo que el valor de la corriente alterna necesaria para generar la misma potencia que una corriente directa es menor, y por ende el circuito es más eficiente.\\
+
 
 
 
 
 %============Conclusión========================================================
 \section{Conclusión}
+En este laboratorio pudimos conocer la forma de la gráfica de voltaje vs tiempo para tres distintas situaciones, el osciloscopio conectado a un circuito RC, RL y RLC, además de indentificar el cambio en la forma de las señales, 
+de su voltaje máximo, efectivo, período y frecuencia, en donde logramos evidenciar que los experimentos comprobaban las ecuaciones que describen el voltaje en función del tiempo, del valor de la resistencia, del valor de la inductancia y del valor de la capacitancia  
+
 
 
 \begin{thebibliography}{5}
